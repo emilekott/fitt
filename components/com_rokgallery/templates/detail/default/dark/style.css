@@ -1,0 +1,12 @@
+/**
+ * @author    RocketTheme http://www.rockettheme.com
+ * @copyright Copyright (C) 2007 - 2011 RocketTheme, LLC
+ * @license   http://www.gnu.org/licenses/gpl-2.0.html GNU/GPLv2 only
+ */
+/* RokGallery - Detail View - Dark */
+.rg-detail-item-title {text-shadow: -1px -1px 0 #222;}
+.rg-detail-img-bg {box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2) inset, 0 -4px 0 rgba(0, 0, 0, 0.2) inset, 0 0 0 1px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.2);-webkit-box-shadow:0 1px 0 rgba(255, 255, 255, 0.2) inset, 0 -4px 0 rgba(0, 0, 0, 0.2) inset, 0 0 0 1px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.2);background-color: #333;background-image:-moz-linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1));background-image:-o-linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1));background-image:-ms-linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1));background-image:-webkit-linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1));background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.5, rgba(255, 255, 255, 0.1)), color-stop(1, rgba(255, 255, 255, 0.1)));}
+.rg-detail-item-views-count, .rg-detail-item-tags-count, .rg-detail-item-loves-count {background-image: url(images/rg-icons.png);}
+.rg-detail-item-loves-count:hover {color: #888;}
+.rg-detail-item-loves-count.action-unlove, .rg-detail-item-loves-count.action-unlove:hover {color: #CD3E40;}
+.rg-detail-slicetag .tag, .rg-detail-filetag .tag {background: #383838;border: 1px solid #484848;text-shadow: -1px -1px 0 #222;}

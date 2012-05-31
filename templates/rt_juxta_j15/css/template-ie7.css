@@ -1,0 +1,129 @@
+/**
+ * @package   Juxta Template - RocketTheme
+ * @version   1.5.1 May 10, 2010
+ * @author    RocketTheme http://www.rockettheme.com
+ * @copyright Copyright (C) 2007 - 2010 RocketTheme, LLC
+ * @license   http://www.rockettheme.com/legal/license.php RocketTheme Proprietary Use License
+ */
+/* Zooms */
+#rt-debug,#rt-utility, #rt-copyright, .rt-block, #rt-main-surround, #rt-header, #rt-mainbody,#rt-mainbody,#rt-mainbody2,#rt-mainbody3,#rt-mainbottom, #rt-bottom, .module-surround,.rt-module-inner, .module-title, .rt-surround-top, .rt-surround, .rt-surround-bottom, .module-inner, .rt-main-inner, .rt-content-top, .rt-content-bottom, .module-content, ul.menutop, #rt-submenu, #rt-logo, module-title-surround, module-title, module-title2, module-title3, #rt-bottom {zoom: 1;}
+
+/* cludge for mainbody jumping */
+/* Menu */
+ .menutop li.parent.root .item span {zoom:1;}
+ .menutop li.parent.root .item {zoom:1;}
+/* sub menu */
+.rt-submenu-surround,.rt-submenu-surround2{zoom:1;}
+/* Showcase */
+#rt-showcase-section, #rt-showcase, #rt-showcase2, #rt-showcase3, #rt-showcase-section {zoom: 1;}
+
+/* Breadcrumb */
+.rt-breadcrumb-surround {display: inline;}
+
+/* Main Body */
+.rt-articleinfo, .rt-articleinfo2, .rt-articleinfo3 {zoom:1;}
+.rt-surround,.rt-surround2,.rt-surround3{zoom:1;}
+
+/* Footer */
+.rt-footer-bottom-wrap, .rt-footer-bottom, .rt-footer-bottom2, .rt-footer-bottom3{zoom:1;position:relative;}
+
+/* Fusion Menu */
+body .menutop li.root > .item ,.menutop ul.columns2 li{display: block !important;zoom:1;margin-left:0 !important;}
+#rt-navigation, #rt-navigation2, #rt-navigation3 {zoom:1;}
+.menutop li.root {margin:0px 32px !important;}
+body .menutop li.root > .item {margin: 0 0 0 -37px !important;}
+
+/* Split Menu */
+body.menu-type-splitmenu .menutop li .item {display: block !important;zoom:1;margin-left:0 !important;}
+body.menu-type-splitmenu .menutop li {margin:0px 32px !important;}
+body.menu-type-splitmenu .menutop li .item {margin: 0 0 0 -37px !important;}
+
+/* Modules */
+.module-title,.module-title2, .module-title3,.module-content {zoom:1;}
+.module-title-surround h2.title,.module-title-surround h1.title  {zoom:1;display:inline-block;width:100%;}
+
+/* Typography */
+.readon {display:inline-block;zoom:1;}
+
+/* RokStories */
+#rt-showcase .rokstories-tip {padding-bottom: 35px;}
+.rokstories-tip {padding: 0px 10px 25px !important;}
+#rt-showcase .feature-block .labels-title {position:absolute;bottom:0;left:0;width:100% !important;zoom:1;}
+.feature-block .feature-block-title {position: relative;}
+body .rokstories-layout2 .feature-arrow-r {top: 90%;}
+body .rokstories-layout2 .feature-arrow-l {top: 90%;left: 95%;}
+#rt-showcase .rokstories-layout2 .feature-desc{zoom: 1;display:inline-block;padding-right:15px;}
+.rokstories-layout2 .feature-pad {margin-right: 25px;margin-left: 0 !important;}
+
+/* RokTwittie */
+.roktwittie li, .roktwittie .roktwittie-text {zoom:1;}
+.roktwittie li, .roktwittie-text .roktwittie-date {display:inline;}
+
+/* RokTabs */
+.roktabs-wrapper .roktabs-links ul.roktabs-top li.active span {zoom:1;}
+
+/* RokAjaxSearch */
+#roksearch_results .container-wrapper {position:relative;zoom:1;}
+#roksearch_results .container-scroller {position:relative;zoom:1;}
+#roksearch_results span.small span {display: inline-block;margin-top: 0;margin-bottom: 0;font-size: 10px;}
+.search_result .display {clear: both;}
+.rokajaxsearch{zoom:1;position:relative;display:inline-block;padding-bottom:10px;}
+
+/* Search Fields */
+.phrase .inputbox {vertical-align:middle;}
+
+/* RokNewsPager */
+body div.roknewspager-div {zoom: 1;}
+body ul.roknewspager li {text-indent:0;width:100%;display:inline;zoom:1;}
+body .roknewspager-wrapper {display: inline;zoom: 1; position: relative;}
+body .roknewspager-comments div.roknewspager-div {zoom: 1;}
+body .roknewspager-comments ul.roknewspager li {display: inline;}
+body #rt-showcase .roknewspager-wrapper {display: inline;zoom: 1; position: relative;}
+body .roknewspager-next,body .roknewspager-prev{display:inline;zoom:1;top:-1px;}
+
+/* Joomla */
+.rt-joomla .rt-article-icons {margin:0px !important;display:inline-block;zoom:1;width:auto;}
+.rt-joomla ol {margin-left: 10px;}
+.rt-joomla .user legend{margin-left:-9px;}
+#com-form-login .readon, #form-login .readon {width:65px;}
+#com-form-login .readon .button, #form-login .readon .button {padding-right: 3px !important;}
+body.rtl #com-form-login label {float: right;}
+
+/* Joomla Form */
+#rt-mainbody .rt-joomla-table {margin-top:40px;display:block;background: none;}
+
+/* RTL */
+body.rtl #rt-mainbg-overlay .rt-tab-image {float:right !important;zoom:1;display:inline-block;}
+body.rtl ul.bullet-a li, body.rtl ul.bullet-d li {zoom:1;}
+body.rtl .rt-articleinfo {clear:right;}
+body.rtl #form-login ul li a, body.rtl #com-form-login ul li a, body.rtl ul.rt-more-articles li a, body.rtl .rt-section-list ul li a, body.rtl ul.mostread li a, body.rtl ul.latestnews li a, body.rtl .weblinks ul li a {zoom:1;background-position:100% 6px !important;}
+body.rtl .rokchecks {zoom:1;position:relative;}
+body.rtl #rt-mainbg-overlay .readon {display:inline-block;zoom:1;}
+body.rtl #rt-mainbg-overlay  #emailForm .readon {width:60px;zoom: 1;}
+body.rtl #rt-mainbg-overlay .readon span, body.rtl #rt-mainbg-overlay input.button {float:none;zoom:1;}
+body.rtl .typo-icon  {zoom:1;padding-bottom: 8px !important;}
+body.rtl span.inset-right-title, body.rtl span.inset-left-title {zoom:1;position:relative;}
+body.rtl .rt-joomla .icon {position:relative;float:left;}
+body.rtl .menutop li.root {margin:0;padding:0;zoom:1;}
+body.rtl .menutop li.root > .item span {margin:0 0 0 0 !important;zoom:1;}
+body.rtl .menutop li.root > .item {margin:0 -37px !important;padding:0;zoom:1;}
+body.menu-type-splitmenu.rtl .menutop li {margin:0;padding:0;zoom:1;}
+body.menu-type-splitmenu.rtl .menutop li .item span {margin:0 0 0 0 !important;zoom:1;}
+body.menu-type-splitmenu.rtl .menutop li .item {margin:0 -37px !important;padding:0;zoom:1;}
+body.rtl .rokradios, body.rtl .rokchecks {float:none;}
+body.rtl #rt-showcase .rokstories-layout2 .feature-desc{zoom: 1;display:inline-block;padding-left:15px;padding-right: 0;}
+body.rtl .rokstories-layout2 .feature-pad {margin-left:20px !important;margin-right: 0 !important;}
+body.rtl .roknewspager-wrapper {direction: ltr;text-align: right;}
+body.rtl #rt-breadcrumbs {direction: ltr;text-align: right;}
+body.rtl .menutop {direction: rtl;}
+body.rtl .menutop ul li, body.rtl ul.columns2 li {text-align: right;}
+body.rtl .roknewspager-next {right:auto;}
+body.rtl ul li a.category, body.rtl ul li span.number {zoom: 1;}
+body.rtl .fusion-js-container {direction: ltr;}
+body.rtl .roksearch-wrapper {width:245px;}
+body.rtl #roksearch_search_str {width:235px;}
+body.rtl .rokstories-layout2 .feature-arrow-r {top: 30%;right:0;}
+body.rtl .rokstories-layout2 .feature-arrow-l {top: 30%;left: 0;}
+body.rtl .feature-block-title {margin-top: -5px;margin-right: 15px;}
+body.rtl ul.bullet-a, body.rtl ul.bullet-b, body.rtl ul.bullet-c, body.rtl ul.bullet-d, body.rtl ul.bullet-e, body.rtl ul.bullet-1, body.rtl ul.bullet-2, body.rtl ul.bullet-3, body.rtl ul.bullet-4, body.rtl ul.bullet-5, body.rtl ul.bullet-6, body.rtl ul.bullet-7, body.rtl ul.bullet-8, body.rtl ul.bullet-9, body.rtl ul.bullet-10 {zoom :1;}
+rtl .roktabs-wrapper .roktabs-links ul.roktabs-top li.active span {zoom:1;}

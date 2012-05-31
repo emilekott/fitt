@@ -1,0 +1,36 @@
+/**
+ * @author    RocketTheme http://www.rockettheme.com
+ * @copyright Copyright (C) 2007 - 2011 RocketTheme, LLC
+ * @license   http://www.gnu.org/licenses/gpl-2.0.html GNU/GPLv2 only
+ */
+body #file-settings .info span{font-family:"Lucida Grande",Helvetica,sans-serif;letter-spacing:0}#file-settings{position:relative;margin:20px -10px}
+#file-settings .file-settings-wrapper{background:url(../images/ios-bg.png) repeat;color:#777;text-shadow:0 -1px 0 #000;padding:20px;position:relative}
+#file-settings .file-settings-wrapper{box-shadow:inset 0 0 10px #000;-webkit-box-shadow:inset 0 0 10px #000}#file-settings .indicator{background:url(../images/filesettings-divider-indicator.png) top left no-repeat;width:16px;height:7px;position:absolute;top:-7px;left:50%}
+#file-settings .divider{background:url(../images/filesettings-divider.png) bottom left repeat-x;position:absolute;left:0;bottom:0;right:0;height:13px}
+#file-settings h1{margin:0;color:#111;text-shadow:0 1px 0 #555;font-weight:normal;padding-bottom:0;width:267px;position:relative;font-size:20px}#file-settings .info span,#file-edit h1 span{color:#6a9ccf;font-size:12px;background:rgba(0,0,0,0.1);border-radius:20px;-webkit-border-radius:20px;-moz-border-radius:20px;text-shadow:0 -1px 0 #000;top:0;right:0;position:absolute;padding:0 10px;opacity:0;visibility:hidden}
+#file-settings .info span.error,#file-edit .info span.error{color:#bf3636}#file-settings .edit-block{float:left;width:31%}#file-settings .slug,#file-settings .description{margin-top:13px}
+#file-settings input,#file-edit input,#file-settings textarea,#file-edit textarea{width:255px;resize:none;padding:10px 5px;color:#fff;font-weight:normal;text-shadow:0 1px 0 #000;background:rgba(0,0,0,0.2);border:1px solid rgba(255,255,255,0.1);box-shadow:inset 0 0 10px rgba(0,0,0,0.5);-webkit-box-shadow:inset 0 0 10px rgba(0,0,0,0.5);border-radius:6px}
+#file-settings input:focus,#file-settings textarea:focus,#file-edit input:focus,#file-edit textarea:focus{outline:0;background:rgba(0,0,0,0.3)}#file-settings input,#file-edit input{font-size:12px}
+#file-settings textarea,#file-edit textarea{font-size:12px;height:80px}#file-settings .slices{min-width:380px}#file-settings .slices-wrapper{text-align:center}
+#file-settings .slices-wrapper,#file-settings .slices-controls{float:left}#file-settings .slices-wrapper .title{color:#e8f3ff;text-shadow:0 2px 0 #000;font-size:12px;min-height:26px}
+#file-settings .slices-wrapper .image{width:300px;height:181px;border:1px solid rgba(255,255,255,0.09);box-shadow:0 0 10px rgba(0,0,0,1) inset,0 0 1px rgba(255,255,255,0.2);-webkit-box-shadow:0 0 10px rgba(0,0,0,1) inset,0 0 1px rgba(255,255,255,0.2);position:relative;background-position:center center;background-repeat:no-repeat}
+#file-settings .slices-wrapper .image.error{background:url(../images/missing_image.png) no-repeat!important}#file-settings .slices-wrapper .image-wrapper .ribbon{display:none}
+#file-settings .slices-wrapper .image-wrapper .ribbon,#file-edit .ribbon{background-image:url(../images/badges.png);background-repeat:no-repeat;display:none;position:absolute;top:-2px;width:26px;height:52px}
+#file-settings .slices-wrapper .image-wrapper .ribbon{right:10px}#file-edit .ribbon{left:20px}#file-settings .slices-wrapper .image-wrapper.admin .ribbon,#file-edit .admin.ribbon{background-position:top right;display:block}
+#file-settings .slices-wrapper .image-wrapper.front .ribbon,#file-edit .front.ribbon{background-position:top left;display:block}#file-settings .slices-wrapper .image-wrapper.front.admin .ribbon,#file-edit .front.ribbon{background-position:top left;width:56px;display:block}
+#file-settings .slices-wrapper .image-wrapper{background-color:rgba(0,0,0,0.3)}#file-settings .slices-wrapper .image-wrapper.loader .image{background:url(../images/spinner-16.gif) center center no-repeat}
+#file-settings .slices-controls{margin:25px 0 0 15px;height:185px;position:relative}#file-settings .slices-controls>div{margin:10px 0}#file-settings .slices-controls .slice-publish,#file-settings .slices-controls .slice-unpublish{position:absolute;bottom:0;left:5px;width:35px;margin:0;cursor:pointer}
+#file-settings .slices-controls .slice-publish .icon,#file-settings .slices-controls .slice-unpublish .icon{background-image:url(../images/icons.png);background-repeat:no-repeat;width:16px;height:16px;margin-top:5px;float:right;display:block;opacity:.5}
+#file-settings .slices-controls .slice-publish:hover .icon,#file-settings .slices-controls .slice-unpublish:hover .icon{opacity:1}#file-settings .slices-controls .slice-publish .icon{background-position:-16px -35px}
+#file-settings .slices-controls .slice-unpublish .icon{background-position:-32px -35px}#file-settings .slices-controls .slice-publish .status{color:#db0000}
+#file-settings .slices-controls .slice-unpublish .status{color:#88d346}#file-settings .slices-controls .slice-publish.loader .icon,#file-settings .slices-controls .slice-unpublish.loader .icon{background:url(../images/spinner-16.gif) top center no-repeat}
+#file-settings .slices .status{font-size:12px;text-shadow:0 -1px 0 #000;margin:0 5px}#file-settings .slices .status{font-weight:bold}#file-settings .slices .status .previous,.slices .status .next{cursor:pointer;outline:0;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-o-user-select:none;-ms-user-select:none;user-select:none}
+#file-settings .slices .status .previous:hover,.slices .status .next:hover{color:#999}#file-settings .slices .status .previous:active,.slices .status .next:active{color:#bbb}
+#file-settings .slices .status .previous,#file-settings .slices .status .count,#file-settings .slices .status .next{float:left}#file-settings .slices .status .count{margin:0 10px}
+#file-settings .slices .status .count span{font-weight:bold}#file-settings .slices .status .subline{line-height:1em;text-align:left}#file-settings .statusbar{display:block;height:30px;margin:20px -20px 0;background:rgba(0,0,0,0.2);padding:10px;text-align:center}
+#file-settings .statusbar-wrapper{margin:0 auto}#file-settings .statusbar-wrapper>div{display:inline-block}#file-settings .statusbar .separator{margin:0 10px;line-height:30px;color:#444}
+#file-settings .statusbar-wrapper .editfile-loader{width:16px;height:16px;background:url(../images/spinner-16.gif) center center no-repeat;margin:7px 0 -4px;display:none}
+#file-settings .statusbar-wrapper .editfile-save{display:none}#file-settings .editfile-publish .status{color:#db0000}#file-settings .editfile-unpublish .status{color:#88d346}
+#file-settings-loader{height:40px;background:url(../images/filesettings-edit.png) repeat-x;margin:0 -10px}#file-settings-loader .loader{width:28px;height:40px;margin:0 auto;display:block;background:url(../images/filesettings-edit-loader.png) center center no-repeat}
+#file-settings-loader .loader span{width:100%;height:100%;display:block;background:url(../images/spinner-16.gif) center center no-repeat}#file-settings,#file-settings-loader{display:none}
+#popup label.share{display:block;padding:2px;color:#999}#popup input.share{border-radius:4px;-moz-border-radius:4px;-webkit-border-radius:4px;color:#666;padding:5px;margin-bottom:10px;width:96%;border:1px solid #ddd;box-shadow:0 0 5px rgba(0,0,0,0.1) inset;-webkit-box-shadow:0 0 5px rgba(0,0,0,0.1) inset;-moz-box-shadow:0 0 5px rgba(0,0,0,0.1) inset}

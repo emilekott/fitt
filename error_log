@@ -1,0 +1,8 @@
+[06-Feb-2012 12:44:21 UTC] PHP Fatal error:  Call to a member function get() on a non-object in /home/fittorg/public_html/templates/beez_20/error.php on line 11
+[06-Feb-2012 12:45:46 UTC] PHP Fatal error:  Call to a member function get() on a non-object in /home/fittorg/public_html/templates/beez_20/error.php on line 11
+[24-May-2012 08:04:09 UTC] PHP Fatal error:  Call to a member function checkAnswer() on a non-object in /home/fittorg/public_html/libraries/cms/form/rule/captcha.php on line 47
+[24-May-2012 08:04:56 UTC] PHP Fatal error:  Call to a member function checkAnswer() on a non-object in /home/fittorg/public_html/libraries/cms/form/rule/captcha.php on line 47
+[24-May-2012 08:07:42 UTC] PHP Fatal error:  Call to a member function checkAnswer() on a non-object in /home/fittorg/public_html/libraries/cms/form/rule/captcha.php on line 47
+[27-May-2012 21:18:27 UTC] PHP Fatal error:  Call to a member function checkAnswer() on a non-object in /home/fittorg/public_html/libraries/cms/form/rule/captcha.php on line 47
+[27-May-2012 21:25:59 UTC] PHP Fatal error:  Call to a member function checkAnswer() on a non-object in /home/fittorg/public_html/libraries/cms/form/rule/captcha.php on line 47
+[27-May-2012 21:42:10 UTC] PHP Fatal error:  Call to a member function checkAnswer() on a non-object in /home/fittorg/public_html/libraries/cms/form/rule/captcha.php on line 47

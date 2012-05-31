@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<state>
+		<name>Customer orders</name>
+	</state>
+	<layout title="Customer orders">
+		<message></message>
+	</layout>
+</metadata>

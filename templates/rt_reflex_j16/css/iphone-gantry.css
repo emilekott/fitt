@@ -1,0 +1,59 @@
+/**
+ * @package   Reflex Template - RocketTheme
+ * @version   1.6.4 December 12, 2011
+ * @author    RocketTheme http://www.rockettheme.com
+ * @copyright Copyright (C) 2007 - 2011 RocketTheme, LLC
+ * @license   http://www.rockettheme.com/legal/license.php RocketTheme Proprietary Use License
+*/
+
+body {word-wrap: break-word;}
+body .rt-container {background: transparent;}
+body h1 {border-bottom: 0;}
+a {-webkit-transition: color 0 ease-out;}
+body #rt-menu {margin-top: 0 !important;}
+body #rt-menu .rt-container {padding-bottom: 5px;}
+body #rt-menu, body #rt-left-menu, body #rt-right-menu, body #rt-menu ul.menu li.active a {background: transparent !important;}
+body #rt-menu ul.menu li a {border-bottom: 0 !important;}
+body #rt-menu .root .separator {display:block; padding: 0 10px;border-bottom: 0 !important;line-height:2em;font-weight:bold;font-style:italic;}
+body #rt-menu .root a, body #rt-menu .root .item {text-shadow:0 -1px 0 #000 !important;color:rgba(255, 255, 255, 0.5) !important;}
+body #rt-header {padding: 0 !important;}
+body #rt-logo {margin: 0 auto !important;}
+body .component-content .rt-article {margin: 0 10px 35px !important;}
+body.cssstyle-style1 #rt-logo {background: url(../images/logo/style1/logo.png) 0 0 no-repeat!important;}
+body.cssstyle-style2 #rt-logo {background: url(../images/logo/style2/logo.png) 0 0 no-repeat!important;}
+body.cssstyle-style3 #rt-logo {background: url(../images/logo/style3/logo.png) 0 0 no-repeat!important;}
+body.cssstyle-style4 #rt-logo {background: url(../images/logo/style4/logo.png) 0 0 no-repeat!important;}
+body.cssstyle-style5 #rt-logo {background: url(../images/logo/style5/logo.png) 0 0 no-repeat!important;}
+body.cssstyle-style6 #rt-logo {background: url(../images/logo/style6/logo.png) 0 0 no-repeat!important;}
+body.cssstyle-style1 .root-sub a {color: #FFF5A5 !important;}
+body.cssstyle-style2 .root-sub a {color: #C0FFD8 !important;}
+body.cssstyle-style3 .root-sub a {color: #FFE97E !important;}
+body.cssstyle-style4 .root-sub a {color: #ABDFE4 !important;}
+body.cssstyle-style5 .root-sub a {color: #F2DDB6 !important;}
+body.cssstyle-style6 .root-sub a {color: #F2C6A0 !important;}
+body #developed-by a, body #powered-by a {margin: 0 auto;height: 26px;vertical-align: middle;}
+.box1 .rt-block, .box2 .rt-block, .box3 .rt-block, .box4 .rt-block, .box5 .rt-block, .box6 .rt-block, .box7 .rt-block, .box8 .rt-block {border-radius: 3px !important;}
+#rt-menu a:hover {color: #fff;}
+body #rt-menu ul.menu li.active a, body #rt-menu ul.menu li.active a:hover, body #rt-menu ul.menu li.active a span, body #rt-menu ul.menu li.active a:hover span {color: #fff !important;}
+body .component-content .rt-articleinfo {background: none;border-radius: 0;}
+
+/* Joomla */
+body .weblinks .rt-joomla-table img {width: 16px;height: 16px;}
+.component-content .edit img {display: none;}
+
+/* Demo Content */
+.rt-demo-map, .rt-demo-prices {float:none;}
+.rt-demo-location, .rt-demo-register {margin-left: 0;}
+.rt-demo-map div {text-align: center}
+.rt-demo-prices {width: auto;}
+.rt-demo-prices h3, .rt-demo-location h3 {font-size: 200%;margin-top: 50px;}
+.rt-demo-title {font-size: 25px;}
+.rt-demo-title br {display: none;}
+.rt-normal .rt-demo-price, .rt-flipped .rt-demo-price {font-size: 50px;margin-right:10px;}
+.rt-normal .rt-demo-header .headline, .rt-flipped .rt-demo-header .headline {font-size: 400%;}
+.rt-left .rt-demo-header .headline, .rt-right .rt-demo-header .headline {font-size: 700%;}
+.rt-normal .rt-demo-header .rt-demo-count, .rt-flipped .rt-demo-header .rt-demo-count {width: 75px;}
+.rt-normal .rt-demo-header .rt-demo-count span, .rt-flipped .rt-demo-header .rt-demo-count span {font-size: 45px;}
+.rt-normal .rt-demo-header .rt-demo-button, .rt-flipped .rt-demo-header .rt-demo-button {padding-left: 0;}
+.rt-normal .rt-demo-button span, .rt-flipped .rt-demo-button span {font-size: 18px !important;}
+.rt-demo-button > div:last-child {margin-right:0;}

@@ -1,0 +1,58 @@
+/**
+ * @author    RocketTheme http://www.rockettheme.com
+ * @copyright Copyright (C) 2007 - 2011 RocketTheme, LLC
+ * @license   http://www.gnu.org/licenses/gpl-2.0.html GNU/GPLv2 only
+ */
+/* RokGallery - Detail View */
+.rg-detail-header {text-align: center !important;}
+.rg-detail-item-title {display: block;font-size: 220%;line-height: 130%;}
+.rg-detail-creation-date {display: block;}
+.rg-detail-img-container {text-align: center !important;margin-top: 15px;}
+.rg-detail-img-bg {padding: 8px 8px 12px; border-radius: 3px 3px 12px 12px;display: inline-block;}
+.rg-detail-img {display: block;border-radius: 3px;}
+.rg-detail-item-caption {float: left;padding-top: 10px;font-size: 120%;width: 60%;text-align: left;}
+.rg-detail-info-table {display: table;border-collapse: separate;width: 100%;margin-top: 25px;}
+.rg-detail-info-container {display: table-row;}
+.rg-detail-file-info span span {font-weight: bold;}
+.rg-detail-file-info, .rg-detail-slice-info {float: none;width: 20%;display: table-cell;}
+.rg-detail-file-main {float: none;width: 60%;display: table-cell;padding-right: 48px;}
+.rg-detail-slice-info {padding-left: 30px;}
+.rg-detail-slice-info .rg-detail-item-title, .rg-detail-file-info .rg-detail-item-title, .rg-detail-file-main .rg-detail-item-title {font-size: 160%;}
+.rg-detail-item-filesize {display: block;}
+.rg-detail-item-dimensions {display: block;}
+.rg-detail-item-link {display: block;}
+.rg-detail-item-thumburl {display: block;}
+.rg-detail-item-created-at {display: block;}
+.rg-detail-item-updated-at {display: block;}
+.rg-detail-slicetag {float: right;}
+.rg-detail-slicetag .tag {font-size: 11px;line-height: 11px;display: inline-block;padding: 3px 5px;margin: 10px 1px 0 1px;border-radius: 5px;}
+.rg-detail-filetag .tag {font-size: 11px;line-height: 11px;display: inline-block;padding: 3px 5px;margin: 10px 1px 10px 1px;border-radius: 5px;}
+.rg-detail-filetag {display: block;}
+.rg-detail-item-file-title {display: block;}
+.rg-detail-item-file-desc {display: block;}
+.rg-detail-item-file-imageurl {display: block;clear: both;}
+.rg-detail-item-file-title {display: block;}
+.rg-detail-item-file-filesize {display: block;}
+.rg-detail-item-file-dimensions {display: block;}
+.rg-detail-item-file-created_at {display: block;}
+.rg-detail-item-file-updated_at {display: block;}
+.rg-detail-item-filesize, .rg-detail-item-dimensions, .rg-detail-item-thumburl, .rg-detail-item-created-at, .rg-detail-item-created-at, .rg-detail-item-updated-at, .rg-detail-filetag, .rg-detail-item-file-title, .rg-detail-item-file-desc, .rg-detail-item-file-imageurl, .rg-detail-item-file-title, .rg-detail-item-file-filesize, .rg-detail-item-file-dimensions, .rg-detail-item-file-created_at, .rg-detail-item-file-updated_at, .rg-detail-item-views-icons {padding: 3px 3px 3px 0px;}
+.rg-detail-item-views-icons {padding-top: 10px; padding-bottom: 20px;display: block; clear: both;}
+.rg-detail-item-views-icons span span {font-weight: normal;}
+.rg-detail-item-views-count, .rg-detail-item-tags-count, .rg-detail-item-loves-count {display: block;float: left;margin:0 8px 0 2px;padding-left: 20px;background-repeat:no-repeat;line-height: 16px;}
+.rg-detail-item-loves-count {cursor: pointer;}
+.rg-detail-item-views-count {background-position: 0 2px;}
+.rg-detail-item-loves-count {background-position: 0 -214px;}
+.rg-detail-item-tags-count {background-position: 0 -142px;}
+.rg-detail-item-views-count:hover {background-position: 0 -34px;}
+.rg-detail-item-loves-count:hover {background-position: 0 -250px;}
+.rg-detail-item-tags-count:hover {background-position: 0 -178px;}
+.rg-detail-item-loves-count.action-unlove, .rg-detail-item-loves-count.action-unlove:hover {background-position: 0 -286px;}
+.rg-detail-item-loves-count.loading, .rg-detail-item-loves-count.loading:hover {background: url(../../spinner-12.gif) center left no-repeat;}
+.rg-detail-pagination {margin: 0 -25px;padding: 15px 25px;position: relative;text-align: center !important;}
+.rg-detail-pagination .prev, .rg-detail-pagination .next {display: block;font-size: 130%;font-weight: normal;position: absolute;top: 15px;}
+.rg-detail-pagination .prev {left: 25px;}
+.rg-detail-pagination .next {right: 25px;}
+
+/* Utility */
+html body * span.clear, html body * div.clear, html body * li.clear, html body * dd.clear {background: none;border: 0;clear: both;display: block;float: none;font-size: 0;list-style: none;margin: 0;padding: 0;overflow: hidden;visibility: hidden;width: 0;height: 0;}

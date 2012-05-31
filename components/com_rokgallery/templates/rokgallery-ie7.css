@@ -1,0 +1,19 @@
+/**
+ * @author    RocketTheme http://www.rockettheme.com
+ * @copyright Copyright (C) 2007 - 2011 RocketTheme, LLC
+ * @license   http://www.gnu.org/licenses/gpl-2.0.html GNU/GPLv2 only
+ */
+/* Fixes for table-cell layout */
+.rg-grid, .rg-list, .rg-detail-file-info, .rg-detail-slice-info, .rg-detail-file-main {display: inline !important;margin: 0 !important;float: left;min-height: expression(parseFloat(this.parentNode.offsetHeight));}
+
+.rg-ss-thumb-scroller, .rg-grid-view-container, .rg-grid-view, .rg-grid-view .grid-row, .rg-grid-view .grid-row, .rg-grid, .rg-grid-view, .rg-grid-view-header, .rg-sort-list, .rg-view-selector, .rg-view-selector-list, .rg-list-view-container, .rg-list-view, .rg-list-view .list-row, .rg-list-view .list-row:first-child, .rg-col2 .rg-list, .rg-list-view .rg-list, .rg-ss-scroller-container, .rg-view-header, .rg-view-header-options {zoom: 1;}
+.rg-ss-thumb-list li, .rg-view-selector-list li, .rg-sort-list li, .rg-view-pagination-list li {display: inline;}
+.rg-ss-caption .line2 {line-height: 120%;}
+.rg-grid-view-header {padding-bottom: 5px !important;}
+.rg-sort-list li.active .indicator {bottom: -13px !important;}
+.rg-grid-view .gallery-data {margin-left: 40px;}
+.rg-grid-view .tag {padding-top: 2px;padding-bottom: 5px;}
+.rg-col4 .rg-grid {width: 24.99%;}
+.rg-detail-file-info, .rg-detail-slice-info, .rg-detail-file-main {zoom: 1;}
+.rg-detail-file-main {width: 43%;}
+.rg-sort-list li.active .sort-arrow {top: 8px}

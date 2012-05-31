@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install SYSTEM "http://dev.joomla.org/xml/1.5/plugin-install.dtd">
+<install type="plugin" version="1.5" method="upgrade" group="hikashoppayment">
+	<name>Hikashop RBS Worldpay Global Gateway Plugin</name>
+	<creationDate>March 2011</creationDate>
+	<version>0.0.7</version>
+	<author>Jonathan Brain</author>
+	<authorEmail>brainforge@btinternet.com</authorEmail>
+	<authorUrl>http://www.brainforge.co.uk</authorUrl>
+	<copyright>Copyright (C) 2011 Jonathan Brain derived from paypal module by HIKARI SOFTWARE SARL - All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<description>Payment Plug-in for RBS Global Gateway using XML Redirect.
+&lt;br/&gt;
+In order to configure and use this plug-in you must have a RBS Global Gateway account.
+&lt;br/&gt;
+Global Gateway is sometimes referred to as &quot;BiBit&quot;.
+&lt;br/&gt;
+&lt;br/&gt;
+&lt;b&gt;The Hosted Payment Page (XML Redirect) service guide:&lt;/b&gt;
+&lt;ul&gt;
+&lt;li&gt;
+http://www.rbsworldpay.com/support/kb/gg/submittingtransactionsredirect/rxml.html
+&lt;/li&gt;
+&lt;li&gt;
+http://www.worldpay.com/support/kb/gg/payment-pages-pilot/Redirectamends.pdf
+&lt;/li&gt;
+&lt;/ul&gt;
+  </description>
+	<files>
+		<filename plugin="bf_rbsglobalgateway">bf_rbsglobalgateway.php</filename>
+		<filename>bf_rbsglobalgateway_configuration.php</filename>
+		<filename>bf_rbsglobalgateway_end.php</filename>
+		<filename>bf_rbsglobalgateway_helper.php</filename>
+		<filename>bf_rbsglobalgateway_template_3-column.php</filename>
+		<filename>bf_rbsglobalgateway_template_default.php</filename>
+		<filename>bf_rbsglobalgateway_template_default-hosted.php</filename>
+	</files>
+	<params addpath="/components/com_hikashop/params">
+	</params>
+</install>

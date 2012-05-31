@@ -1,0 +1,27 @@
+/**
+ * @author    RocketTheme http://www.rockettheme.com
+ * @copyright Copyright (C) 2007 - 2011 RocketTheme, LLC
+ * @license   http://www.gnu.org/licenses/gpl-2.0.html GNU/GPLv2 only
+ */
+#popup .topbar .counter{color:#999;float:right;font-size:12px;font-weight:normal;text-transform:none;line-height:17px;margin-right:5px}#popup .topbar .counter span{font-weight:bold}
+#files-status,#files-list{display:none}#files-status{float:left;background:url(../images/images.png) top center no-repeat;padding-top:40px;width:75px;font-size:10px;line-height:13px}
+#files-list{float:right;width:300px;max-height:145px;overflow:hidden;margin:0;padding:0;list-style:none}#files-clear{color:#aaa;font-size:12px;line-height:29px;margin-left:5px;text-shadow:0 1px 0 #fff;cursor:pointer;display:none}
+#files-list .file-1{background:url(../images/image-red.png) 0 2px no-repeat}#files-list .file-2{background:url(../images/image-green.png) 0 2px no-repeat}
+#files-list .file-3{background:url(../images/image-blue.png) 0 2px no-repeat}#files-list .file-success{background:url(../images/file-success.png) 0 2px no-repeat}
+#files-list .file-failed{background:url(../images/file-fail.png) 0 2px no-repeat}#files-list .file-uploading{background:transparent}#files-list .file{padding-left:20px;padding-bottom:5px;margin:0 10px 10px 0;float:left;width:120px;font-size:11px;line-height:13px;position:relative;z-index:10;border-bottom:1px solid #eee}
+#files-list .file:hover{z-index:20}#files-list .file-name,#files-list .file-size{display:block}#files-list .file-name{color:#555;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;-o-text-overflow:ellipsis;-icab-text-overflow:ellipsis;-khtml-text-overflow:ellipsis;-moz-text-overflow:ellipsis;-webkit-text-overflow:ellipsis;margin-bottom:2px;line-height:17px}
+#files-list .file-name:hover{overflow:visible;text-shadow:0 0 5px #0074eb}#files-list .file-success .file-name{color:#457e17}#files-list .file-failed .file-name{color:#a40303}
+#files-list .file-uploading .file-name{color:#ee7600}#files-list .file-info{clear:both;float:left;margin-top:5px;color:#a40303}#files-list .file-size{color:#999;float:left}
+#files-list .file-remove{float:left;background:url(../images/icons.png) -16px -240px;width:12px;height:12px;display:block;opacity:0;position:absolute;left:2px;top:20px}
+#files-list .file:hover .file-remove{opacity:.8}#files-list .file.file-success .file-name:hover,#files-list .file.file-failed .file-name:hover,#files-list .file.file-uploading .file-name:hover{text-shadow:0 1px 0 #fff}
+#files-list .file-remove:hover{opacity:1}#files-list .file.file-success .file-remove,#files-list .file.file-failed .file-remove,#files-list .file.file-uploading .file-remove{display:none}
+#files-list .file-remove span{display:none}#files-list .file-canvas-wrapper{left:0;position:absolute;top:2px;display:none}#files-list .file-canvas,#files-list .file-canvas-bg{position:absolute;z-index:5}
+#files-list .file-canvas{z-index:10}#files-list .file-uploading .file-canvas-wrapper{display:block}#files-list .file-success .file-canvas-wrapper{display:none}
+#files-list .validation-error{background:#ec4343;border-radius:8px;color:#fff;font-size:11px;line-height:13px;margin:0 3px 5px 0;padding:5px 8px 8px;box-shadow:0 -4px 0 rgba(0,0,0,0.1) inset;cursor:pointer}
+.statusbar .job-canvas-wrapper{position:absolute;left:10px;top:10px}.statusbar .job-canvas-wrapper canvas{left:0;position:absolute;top:0;z-index:5}.statusbar .job-canvas-wrapper canvas.job-canvas{z-index:10}
+#files-status .overall-title{margin-top:5px;text-align:center}#files-status .current-text{text-align:center}#files-status .total-progress{position:relative;width:25px;height:25px;margin:0 auto}
+#files-status .total-progress-bg{z-index:5}#files-status canvas{left:0;position:absolute;top:0;z-index:5}#files-status .overall-progress{z-index:10}#files-status .progress-bg{background:url(../images/progress-bg.png) no-repeat;display:block;height:40px;left:0;position:absolute;top:0;width:40px;z-index:1}
+#files-status .button{float:left}#files-status #files-success{width:100%;height:100%;background:url(../images/files-success.png) center center no-repeat;display:none;z-index:15}
+#files-form{position:relative}#files-form div.scrollbar{width:4px;border-radius:4px;background:#333;position:absolute;top:0;right:-4px;display:block}#files-empty-desc .drop-info{margin:10px;padding:40px 20px;text-align:center;text-align:center;text-transform:uppercase;color:#ddd;border:4px dashed #eee;border-radius:6px;-webkit-border-radius:12px;-moz-border-radius:12px;font-size:16px}
+#files-empty-desc .drop-info.drag-over{color:#91ce84;border-color:#91ce84}.job-info,.jobs-info,.galleries-info,.gallery-info,.tags-info{color:#888;float:left;font-size:12px;line-height:28px;margin-left:30px}
+.jobs-info,.galleries-info,.tags-info{margin-left:0}.drop-info,#files-list .file-remove,#files-list .file-name{-webkit-transition:all .3s ease-in-out;-moz-transition:all .3s ease-in-out;-o-transition:all .3s ease-in-out;-webkit-transition:all .3s ease-in-out;transition:all .3s ease-in-out}

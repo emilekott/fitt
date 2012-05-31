@@ -1,0 +1,15 @@
+/**
+ * @author    RocketTheme http://www.rockettheme.com
+ * @copyright Copyright (C) 2007 - 2011 RocketTheme, LLC
+ * @license   http://www.gnu.org/licenses/gpl-2.0.html GNU/GPLv2 only
+ */
+#popup .jobs-list{max-height:200px}#popup .jobs-popup div.gutter{top:0;right:-4px}.jobs-popup .jobs-batch{border-bottom:1px solid #eee;height:35px;margin-bottom:8px}
+.jobs-popup .jobs-batch .jobs-counter{color:#555;line-height:30px}.jobs-popup .jobs-batch .jobs-counter span{font-weight:bold}.jobs-popup #jobs-wipe-warning{display:none}
+.jobs-wrapper .job-item{clear:both;margin:0 5px 10px 0;padding:5px 8px;border-radius:6px;color:#aaa;text-shadow:0 1px 0 #fff}.jobs-wrapper .job-item{background:#f0f0f0;background:-moz-linear-gradient(top,#f0f0f0 50%,#e5e5e5 100%);background:-webkit-gradient(linear,left top,left bottom,color-stop(50%,#f0f0f0),color-stop(100%,#e5e5e5));background:-webkit-linear-gradient(top,#f0f0f0 50%,#e5e5e5 100%);background:-o-linear-gradient(top,#f0f0f0 50%,#e5e5e5 100%);background:-ms-linear-gradient(top,#f0f0f0 50%,#e5e5e5 100%);background:linear-gradient(top,#f0f0f0 50%,#e5e5e5 100%)}
+.jobs-wrapper .job-top{border-bottom:1px solid #ddd;padding-bottom:5px}.jobs-wrapper .job-id{float:left;color:#777}.jobs-wrapper .job-actions{float:right}
+.jobs-wrapper .job-bottom{border-top:1px solid #fff;padding-top:5px}.jobs-wrapper .job-updated{float:left}.jobs-wrapper .job-state{float:right}.jobs-wrapper .job-item.running .job-bottom,.jobs-wrapper .job-item.pausing .job-bottom,.jobs-wrapper .job-item.paused .job-bottom{color:#e78006}
+.jobs-wrapper .job-item.completed .job-bottom{color:#1d8d1b}.jobs-wrapper .job-item.errored .job-bottom,.jobs-wrapper .job-item.canceling .job-bottom,.jobs-wrapper .job-item.canceled .job-bottom,.jobs-wrapper .job-item.deleting .job-bottom,.jobs-wrapper .job-item.deleted .job-bottom{color:#be1c1c}
+.jobs-wrapper .job-actions>div{width:16px;height:16px;background-image:url(../images/jobs-actions.png);background-repeat:no-repeat;float:left;opacity:.4;cursor:pointer;margin:3px 3px 0}
+.jobs-wrapper .job-actions>div:hover{opacity:1}.jobs-wrapper .job-actions .start{background-position:1px 0}.jobs-wrapper .job-actions .pause{background-position:-15px 0}
+.jobs-wrapper .job-actions .cancel{background-position:-33px 0}.jobs-wrapper .job-actions .delete{background-position:-49px 0}.jobs-wrapper .job-actions .refresh{background-position:-66px 0}
+.jobs-wrapper .job-actions .loader{background:url(../images/spinner-16.gif) center center no-repeat}

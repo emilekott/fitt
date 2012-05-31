@@ -1,0 +1,50 @@
+/**
+ * @package   Juxta Template - RocketTheme
+ * @version   1.5.1 May 10, 2010
+ * @author    RocketTheme http://www.rockettheme.com
+ * @copyright Copyright (C) 2007 - 2010 RocketTheme, LLC
+ * @license   http://www.rockettheme.com/legal/license.php RocketTheme Proprietary Use License
+ */
+.showcase-image-surround {position: relative;padding: 5px;margin-bottom: 15px;}
+.showcase-image {width: 260px;height: 74px;position: absolute;top: 0;left: 0;}
+.rt-tab-image-surround {position: relative;padding: 5px;margin-bottom: 15px;}
+.rt-tab-image {width: 110px;height: 80px;position: absolute;top: 0;left: 0;background: url(../images/typography/tab-image.png) no-repeat scroll 50% 0;}
+
+/* Frontpage Content */
+.floatleft {float: left;margin-right: 15px;}
+.floatright {float: right;margin-left: 15px;}
+.floatnone {float: none !important;}
+
+/* Extensions */
+.rt-ext-col1 {float: left;width: 47%;}
+.rt-ext-col2 {float: right;width: 47%;}
+.rt-ext-block {margin-bottom: 30px;overflow: hidden;}
+.rt-ext-block.last {margin-bottom: 0;}
+.rt-ext-img {float: left;margin-right: 20px;margin-bottom: 50px;}
+.rt-ext-divider {height: 10px;display: block;}
+.rt-ext-links {display: block;margin-left: 100px;}
+
+/* Style Variations */
+.demo-sv-title {width: 180px;float: left;margin-right: 11px;padding-left: 6px;}
+.demo-sv-title h2 {text-align: center;}
+.demo-img .demo-sv-img {float: none;margin-right: 5px;}
+
+/* Tutorials */
+.demo-tut-list {float: left;width: 45%;}
+.demo-tut-video-img {margin-right: 15px;width: 123px;float: left;}
+.demo-tut-divider {width: 15px;}
+
+/* RTL Stuff */
+body.rtl .showcase-image {position: absolute;top: 0;left: auto;right: 0;}
+body.rtl .floatleft {float: right;margin-right: 0;margin-left: 15px;}
+body.rtl .rt-tab-image-surround {float: right !important;}
+body.rtl .rt-tab-image-surround .floatleft {float: left;margin-right: 0;margin-left: 15px;}
+body.rtl .rt-tab-image {right: 0;left: auto !important;}
+body.rtl .floatright {float: left;margin-left: 0;margin-right: 15px;}
+body.rtl .rt-ext-col1 {float: right;}
+body.rtl .rt-ext-col2 {float: left;}
+body.rtl .rt-ext-img {float: right;margin-right: 0;margin-left: 20px;}
+body.rtl .rt-ext-links {margin-right: 100px;margin-left: 0;}
+body.rtl .demo-sv-title {float: right;margin-right: 0;margin-left: 11px;padding-left: 0;padding-right: 6px;}
+body.rtl .demo-tut-list {float: right;}
+body.rtl .demo-tut-video-img {margin-right: 0;margin-left: 15px;float: right;}

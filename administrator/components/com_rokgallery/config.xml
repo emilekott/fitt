@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+    <fieldset name="basic" addfieldpath="/components/com_rokgallery/fields" addrulepath="/components/com_rokgallery/rules">
+        <field name="spacer_generalsettings" type="spacer"
+                       label="&lt;div   style=&quot;font-weight:normal;font-size:12px;color:#fff;padding:4px;margin:0;background:#666;&quot;&gt;General Settings&lt;/div&gt;"
+                       description="" class=""/>
+        <field name="allow_duplicate_files" type="list" default="true" label="ROKGALLERY_SETTINGS_LABEL_ALLOW_DUP_FILES"
+               description="ROKGALLERY_SETTINGS_DESC_ALLOW_DUP_FILES">
+            <option value="1">ROKGALLERY_YES</option>
+            <option value="0">ROKGALLERY_NO</option>
+        </field>
+        <field name="autoclear_successful_jobs" type="hidden" default="0" value="0"/>
+        <!--<field name="autoclear_successful_jobs" type="list" default="true" label="ROKGALLERY_SETTINGS_LABEL_CLEAR_JOBS"-->
+               <!--description="ROKGALLERY_SETTINGS_DESC_CLEAR_JOBS">-->
+            <!--<option value="1">ROKGALLERY_YES</option>-->
+            <!--<option value="0">ROKGALLERY_NO</option>-->
+        <!--</field>-->
+
+        <field name="publish_slices_on_file_publish" type="list" default="false" label="ROKGALLERY_SETTINGS_LABEL_AUTOPUBLISH_SLICES"
+               description="ROKGALLERY_SETTINGS_DESC_AUTOPUBLISH_SLICES">
+            <option value="1">ROKGALLERY_YES</option>
+            <option value="0">ROKGALLERY_NO</option>
+        </field>
+
+
+        <field name="spacer_gallerysettings" type="spacer"
+                       label="&lt;div   style=&quot;font-weight:normal;font-size:12px;color:#fff;padding:4px;margin:0;background:#666;&quot;&gt;Gallery Settings&lt;/div&gt;"
+                       description="" class=""/>
+        <field name="gallery_remove_slice" type="list" default="true" label="ROKGALLERY_SETTINGS_LABEL_GALLERY_REMOVE_SLICES"
+               description="ROKGALLERY_SETTINGS_DESC_GALLERY_REMOVE_SLICES">
+            <option value="1">ROKGALLERY_YES</option>
+            <option value="0">ROKGALLERY_NO</option>
+        </field>
+        <field name="gallery_autopublish" type="list" default="true" label="ROKGALLERY_SETTINGS_LABEL_GALLERY_AUTOPUBLISH"
+               description="ROKGALLERY_SETTINGS_LABEL_GALLERY_AUTOPUBLISH">
+            <option value="1">ROKGALLERY_YES</option>
+            <option value="0">ROKGALLERY_NO</option>
+        </field>
+
+        <field name="spacer_default_thumbnail_settings" type="spacer"
+                       label="&lt;div   style=&quot;font-weight:normal;font-size:12px;color:#fff;padding:4px;margin:0;background:#666;&quot;&gt;Default Thumbnail Settings&lt;/div&gt;"
+                       description="" class=""/>
+        <field name="default_thumb_xsize" type="text" default="150" label="ROKGALLERY_SETTINGS_LABEL_THUMB_XSIZE"
+               description="ROKGALLERY_SETTINGS_DESC_THUMB_XSIZE" validate="integer" required="true" min="1"/>
+        <field name="default_thumb_ysize" type="text" default="150" label="ROKGALLERY_SETTINGS_LABEL_THUMB_YSIZE"
+               description="ROKGALLERY_SETTINGS_DESC_THUMB_YSIZE" validate="integer" required="true" min="1"/>
+        <field name="default_thumb_keep_aspect" type="list" default="true" label="ROKGALLERY_SETTINGS_LABEL_THUMB_KEEP_ASPECT"
+               description="ROKGALLERY_SETTINGS_DESC_THUMB_KEEP_ASPECT">
+            <option value="1">ROKGALLERY_YES</option>
+            <option value="0">ROKGALLERY_NO</option>
+        </field>    
+        <field name="default_thumb_background" type="colorchooser" transparent="true" default="" label="ROKGALLERY_SETTINGS_LABEL_THUMB_BACKGROUND" description="ROKGALLERY_SETTINGS_DESC_THUMB_BACKGROUND" />
+
+        <field name="spacer_image_settings" type="spacer"
+                       label="&lt;div   style=&quot;font-weight:normal;font-size:12px;color:#fff;padding:4px;margin:0;background:#666;&quot;&gt;Image Settings&lt;/div&gt;"
+                       description="" class=""/>
+        <field name="jpeg_quality" type="text" default="80" label="ROKGALLERY_SETTINGS_LABEL_JPEG_QUALITY"
+               description="ROKGALLERY_SETTINGS_DESC_JPEG_QUALITY" validate="integer" required="true" min="0" max="100"/>
+
+        <field name="png_compression" type="text" default="0" label="ROKGALLERY_SETTINGS_LABEL_PNG_COMPRESSION"
+               description="ROKGALLERY_SETTINGS_DESC_PNG_COMPRESSION"  validate="integer" required="true" min="0" max="9"/>
+
+        <field name="spacer_love_settings" type="spacer"
+                       label="&lt;div   style=&quot;font-weight:normal;font-size:12px;color:#fff;padding:4px;margin:0;background:#666;&quot;&gt;Love Settings&lt;/div&gt;"
+                       description="" class=""/>
+        <field name="love_text" type="text" default="ROKGALLERY_LOVE" label="ROKGALLERY_SETTINGS_LABEL_LOVE_TEXT"
+               description="ROKGALLERY_SETTINGS_DESC_LOVE_TEXT"/>
+
+        <field name="unlove_text" type="text" default="ROKGALLERY_UNLOVE" label="ROKGALLERY_SETTINGS_LABEL_UNLOVE_TEXT"
+               description="ROKGALLERY_SETTINGS_DESC_UNLOVE_TEXT"/>
+    </fieldset>
+</config>

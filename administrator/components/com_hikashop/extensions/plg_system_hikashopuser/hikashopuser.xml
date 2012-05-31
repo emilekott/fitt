@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install version="1.5" type="plugin" group="system" method="upgrade">
+	<name>User - HikaShop</name>
+	<creationDate>May 2010</creationDate>
+	<version>1.0.0</version>
+	<author>HikaShop</author>
+	<authorEmail>dev@hikashop.com</authorEmail>
+	<authorUrl>http://www.hikashop.com</authorUrl>
+	<copyright>Copyright (C) 2010 HIKASHOP SARL - All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<description>HikaShop User plugin to automatically synchronise the Joomla Users and the HikaShop ones</description>
+	<files>
+		<filename plugin="hikashopuser">hikashopuser.php</filename>
+	</files>
+	<params addpath="/components/com_hikashop/params">
+	</params>
+</install>

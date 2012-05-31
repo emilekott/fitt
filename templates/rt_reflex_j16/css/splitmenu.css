@@ -1,0 +1,26 @@
+/**
+ * @package   Reflex Template - RocketTheme
+ * @version   1.6.4 December 12, 2011
+ * @author    RocketTheme http://www.rockettheme.com
+ * @copyright Copyright (C) 2007 - 2011 RocketTheme, LLC
+ * @license   http://www.rockettheme.com/legal/license.php RocketTheme Proprietary Use License
+ */
+
+/* Global */
+.menutop li {height: auto;margin: 0;padding: 0;position: relative;list-style: none;}
+.menutop em {font-size: 80%;font-weight: normal;display: block;font-style: normal;}
+.menutop li .item, .menutop li.active .item {display: block;margin: 0;text-decoration: none;float: none;width: auto;}
+
+/* Root Items */
+.menutop {list-style: none;margin: 0;padding: 0;position: relative;line-height: 1em;display: inline-block;}
+.menutop li {float: left;margin: 0;padding: 0 2px 0 0;border-radius: 3px 3px 0 0;background-position: 100% 0;background-repeat: repeat-y;}
+.menutop li .item {white-space: nowrap;display: block;font-size: 14px;z-index: 100;cursor: pointer;position: relative;padding: 0;margin: 0;outline: none;font-weight: normal;height: 60px;line-height: 60px;background-position: 50% 0;transition: background 0.2s linear;}
+.menutop li .item:first-child {border-radius: 3px 0 0 0;}
+.menutop li > span.item {cursor: default;}
+.menutop li .subtext {line-height: 46px;}
+.menutop li .item span {display: block;outline: none;padding: 0 20px;width: auto;}
+.menutop li .item em {font-size: 11px;display: block;font-style: normal;line-height: 100%;text-align: left;text-transform: lowercase;letter-spacing: normal;margin-top: -14px;}
+
+/* RTL */
+body.rtl .menutop li {float: right;padding: 0 0 0 2px;}
+body.rtl .menutop li .item em {text-align: right;}

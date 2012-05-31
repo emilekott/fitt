@@ -1,0 +1,46 @@
+/**
+ * @package   Reflex Template - RocketTheme
+ * @version   1.6.4 December 12, 2011
+ * @author    RocketTheme http://www.rockettheme.com
+ * @copyright Copyright (C) 2007 - 2011 RocketTheme, LLC
+ * @license   http://www.rockettheme.com/legal/license.php RocketTheme Proprietary Use License
+ */
+
+/* Modules */
+.module-title .title br {display: none;}
+.module-content ul.menu a, .module-content ul.menu .separator, .module-content ul.menu .item {display: inline-block;vertical-align: middle;text-indent: 0;}
+.module-content ul.menu .image img {margin-left: -10px;margin-right: 6px;}
+.module-content ul.menu .subtext em {padding-left: 0;}
+.module-content ul.menu .image em {padding-left: 14px;}
+.rt-pollrow input {left: 0 !important;visibility: hidden;}
+
+/* RokTwittie */
+body #roktwittie li {overflow: hidden;}
+
+/* Transitions */
+a, .rok-content-rotator h2 a {-o-transition: color 0.2s ease-out;}
+.menutop li.root > .item, .rt-splitmenu .menutop li .item, .menutop li.f-menuparent-itemfocus > .item, .menutop ul li > .item, .menutop li.f-menuparent-itemfocus > .item {-o-transition: background 0.2s linear;}
+body #roksearch_results .roksearch_odd-hover, body #roksearch_results .roksearch_even-hover, .module-content ul.menu li {-o-transition: background 0.3s linear;}
+#rokajaxsearch .inputbox, .rg-ss-controls .next, .rg-ss-controls .prev, .rg-ss-arrow-left, .rg-ss-arrow-right {-o-transition: background-color 0.2s linear;}
+.component-content .rt-article-icons .print, .component-content .rt-article-icons .email, .component-content .rt-article-icons .pdf, .component-content .rt-article-icons .edit, body .roktabs-wrapper .arrow-next, body .roktabs-wrapper .arrow-prev {-o-transition: background-color 0.2s ease-out;}
+
+/* load transition */
+#rt-container-content.rt-hidden {opacity: 0;}
+#rt-container-content.rt-visible {opacity: 1;-o-transition: opacity 0.5s ease-out;transition: opacity 0.5s ease-out;}
+
+/* RokGallery */
+.rg-grid-view .rg-grid {background: rgba(255,255,255,0);}
+
+/* RTL */
+body.rtl .rokradios, body.rtl .rokradios-active, body.rtl .rokchecks, body.rtl .rokchecks-active {display: inline-block;}
+body.rtl .rt-pollrow .rokradios, body.rtl .rt-pollrow .rokradios-active, body.rtl .rt-pollrow .rokchecks, body.rtl .rt-pollrow .rokchecks-active {margin-right: 2px;}
+body.rtl #form-login ul, body.rtl #com-form-login ul, body.rtl ul.rt-more-articles, body.rtl .rt-section-list ul {direction: ltr;text-align: right;}
+body.rtl #form-login ul li a, body.rtl #com-form-login ul li a, body.rtl ul.rt-more-articles li a, body.rtl .rt-section-list ul li a, body.rtl ul.mostread li a, body.rtl ul.latestnews li a, body.rtl .weblinks ul li a {display: block;}
+
+/* Demo Presets */
+body .menutop .type-module ol li .fusion-module {overflow: visible;}
+.menu-preset a img {-o-transition: all 0.3s ease-in-out;-o-animation-iteration-count: 1;position:relative;z-index:3000;-o-transform: scale(1); cursor:pointer;}
+.menu-preset a:hover img {-o-transition: all 0.3s ease-in-out;-o-animation-iteration-count: 1;position:relative;z-index:3000;-o-transform: scale(1.1); cursor:pointer;}
+
+/* Additional Fixes */
+.roktabs-wrapper .roktabs-links ul li span {-o-user-select: none;}

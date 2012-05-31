@@ -1,0 +1,50 @@
+/**
+ * @package   Reflex Template - RocketTheme
+ * @version   1.5.2 November 11, 2011
+ * @author    RocketTheme http://www.rockettheme.com
+ * @copyright Copyright (C) 2007 - 2011 RocketTheme, LLC
+ * @license   http://www.rockettheme.com/legal/license.php RocketTheme Proprietary Use License
+*/
+
+/* Top Menu */
+body.rtl .rt-menubar {float: right;}
+
+/* Side Menus */
+body.rtl .module-content ul.menu li > a, body.rtl .module-content ul.menu li > .separator, body.rtl .module-content ul.menu li > .item {background-position: 5px -882px;}
+body.rtl .module-content ul.menu li > a:hover, body.rtl .module-content ul.menu li > .separator:hover, body.rtl .module-content ul.menu li > .item:hover {background-position: 5px -1334px;}
+body.rtl .module-content ul.menu li.active > a, body.rtl .module-content ul.menu li.active > .separator, body.rtl .module-content ul.menu li.active > .item {background-position: 5px -2183px;}
+body.rtl .module-content ul.menu li li a span, body.rtl .module-content ul.menu li li .separator, body.rtl .module-content ul.menu li li .item span {padding: 4px 15px 4px 10px;}
+body.rtl .module-content ul.menu .image img {float: right;}
+body.rtl .module-content ul.menu .item.image {padding-left: inherit;padding-right: 8px;}
+body.rtl .module-content ul.menu ul {padding: 10px 15px 15px 0;}
+
+/* Buttons and Inputs */
+body.rtl .rokchecks, body.rtl .rokradios {padding: 2px 22px 2px 0;}
+body.rtl .rokradios {background-position: 100% 2px;}
+body.rtl .rokradios-active {background-position: 100% -159px;}
+body.rtl .rokchecks {background-position: 100% -344px;}
+body.rtl .rokchecks-active {background-position: 100% -542px;}
+
+/* Branding */
+#rocket {float: left;}
+
+/* Copyright */
+.copytext {text-align: right;}
+
+/* Breadcrumbs */
+body.rtl span.breadcrumbs a, body.rtl span.no-link {float: right;}
+body.rtl span.breadcrumbs img, body.rtl #rt-breadcrumbs img[src $="arrow.png"] {float: right;}
+
+/* Scrolling Modules */
+body.rtl .controls .up, body.rtl .controls .down {margin-right: auto;margin-left: -40px;}
+
+/* Popup Module Feature */
+body.rtl #rt-popuplogin p {float: right;}
+body.rtl #rt-popuplogin p:first-child {margin-right: 0;margin-left: 10px;}
+body.rtl #rt-popuplogin .readon {float: left;}
+body.rtl #rt-popuplogin ul li {margin-right: 0;margin-left: 10px;}
+
+/* Custom Content */
+body.rtl .image-block-surround {float: right;margin-right: 0;margin-left: 15px;}
+body.rtl .number-image {float: right;margin-right: 0;margin-left: 15px;}
+body.rtl .number-image-text {;margin: 0 -5px -8px 0;}

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install SYSTEM "http://dev.joomla.org/xml/1.5/plugin-install.dtd">
+<install type="plugin" version="1.5" method="upgrade" group="hikashop">
+	<name>Hikashop User account Plugin</name>
+	<creationDate>February 2011</creationDate>
+	<version>1.0.0</version>
+	<author>Hikashop</author>
+	<authorEmail>dev@hikashop.com</authorEmail>
+	<authorUrl>http://www.hikashop.com</authorUrl>
+	<copyright>Copyright (C) 2010 HIKARI SOFTWARE SARL - All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<description>This plugin enables you to add a link to the joomla user profile</description>
+	<files>
+		<filename plugin="user_account">user_account.php</filename>
+	</files>
+	<params addpath="/components/com_hikashop/params">
+	</params>
+	<config>
+		<fields name="params" addfieldpath="/components/com_hikashop/fields">
+		</fields>
+	</config>
+</install>

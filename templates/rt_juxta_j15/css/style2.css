@@ -1,0 +1,194 @@
+/**
+ * @package   Juxta Template - RocketTheme
+ * @version   1.5.1 May 10, 2010
+ * @author    RocketTheme http://www.rockettheme.com
+ * @copyright Copyright (C) 2007 - 2010 RocketTheme, LLC
+ * @license   http://www.rockettheme.com/legal/license.php RocketTheme Proprietary Use License
+ */
+
+/*** TEXT AND SHADOW COLORS *************************/
+
+/* Main Body Text */
+body, #rt-header, #rt-bottom, #rt-footer, #rt-copyright, legend {color: #333;}
+a:hover, .button:hover {color: #333;}
+
+/* Menu Text */
+.menutop li.root > .item, .menu-type-splitmenu .menutop li .item {color: #333;text-shadow: 1px 1px 1px #fff;}
+.menutop li.root.active > .item, .menutop li.root.active > .item:hover, .menu-type-splitmenu .menutop li.active .item, .menu-type-splitmenu .menutop li.active:hover .item, .menutop li.root.active.f-mainparent-itemfocus > .item {color: #fff;text-shadow: -1px -1px 1px #000;}
+.menutop li.root:hover > .item, .menutop li.root.f-mainparent-itemfocus > .item, .menu-type-splitmenu .menutop li:hover .item {color: #fff;text-shadow: -1px -1px 1px #000;}
+.menutop li > .item {color: #333;text-shadow: 1px 1px 1px #fff;}
+#rt-main-surround ul.menu li a, #rt-main-surround ul.menu li .separator, #rt-main-surround ul.menu li .item {color: #333;text-shadow: 1px 1px 1px #fff;}
+.menutop li:hover > .bullet, .menutop li.f-menuparent-itemfocus .bullet, .menutop li.active > .bullet {color: #333;}
+
+/* Module Text */
+.module-title .title {color: #000;text-shadow: 1px 1px 1px #fff;}
+
+/* Module Variations Text */
+.flag1 .module-title .title {color: #fff;text-shadow: -1px -1px 1px #244B62;}
+.flag2 .module-title .title {color: #fff;text-shadow: -1px -1px 1px #000;}
+.flag3 .module-title .title {color: #fff;text-shadow: -1px -1px 1px #491F1E;}
+.title1 .module-title .title {text-shadow: 1px 1px 1px #fff;}
+
+/* Article Text */
+.rt-joomla .rt-date-posted {text-shadow: 1px 1px 1px #fff;}
+.rt-joomla .rt-author {color: #666;text-shadow: 1px 1px 1px #fff;}
+
+/* Typography Text */
+.readon span {text-shadow: 1px 1px 1px #fff;}
+
+/*** IMAGES AND BACKGROUNDS *************************/
+
+/* Body Surround */
+.bodylevel-high .rt-surround {background: url(../images/backgrounds/style2/surround-texture.png) 50% 0;}
+.bodylevel-high .rt-surround2 {background: url(../images/backgrounds/style2/surround-l.png) 0 0 repeat-y;}
+.bodylevel-high .rt-surround3 {background: url(../images/backgrounds/style2/surround-r.png) 100% 0 repeat-y;}
+.bodylevel-med .rt-surround {background: url(../images/backgrounds/style2/surround-texture.png) 50% 0;}
+.bodylevel-low .rt-surround {background: url(../images/backgrounds/style2/surround-texture.png) 50% 0;}
+
+/* Logo */
+#rt-logo {background: url(../images/logo/style2/logo.png) 0 0 no-repeat;}
+
+/* Top Menu */
+#rt-navigation {background: url(../images/backgrounds/style2/navigation-bg.jpg) 50% 0 repeat-y;}
+#rt-navigation2 {background: url(../images/body/style2/section-shadow-top.png) 50% 0 no-repeat;}
+#rt-navigation3 {background: url(../images/body/style2/section-shadow-bottom.png) 50% 100% no-repeat;}
+.bodylevel-low #rt-navigation2 {background: url(../images/body/style2/body-div.png) 50% 0 repeat-x;}
+.bodylevel-low #rt-navigation3 {background: url(../images/body/style2/body-div.png) 50% 100% repeat-x;}
+.menutop li.active.root,
+.menutop li.root:hover,
+.menutop li.root.f-mainparent-itemfocus,
+.menu-type-splitmenu .menutop li.active,
+.menu-type-splitmenu .menutop li:hover,
+.menu-type-splitmenu .menutop li.f-mainparent-itemfocus {background: url(../images/menus/style2/topmenu-active-m.png) 50% 0 repeat-x;}
+.menutop li.active.root > .item,
+.menutop li.root:hover > .item,
+.menutop li.root.f-mainparent-itemfocus > .item,
+.menu-type-splitmenu .menutop li.active > .item,
+.menu-type-splitmenu .menutop li:hover > .item,
+.menu-type-splitmenu .menutop li.f-mainparent-itemfocus > .item {background: url(../images/menus/style2/topmenu-active-l.png) 0 0 no-repeat;}
+.menutop li.active.root > .item span,
+.menutop li.root:hover > .item span,
+.menutop li.root.f-mainparent-itemfocus > .item span,
+.menu-type-splitmenu .menutop li.active > .item span,
+.menu-type-splitmenu .menutop li:hover > .item span,
+.menu-type-splitmenu .menutop li.f-mainparent-itemfocus > .item span {background: url(../images/menus/style2/topmenu-active-r.png) 100% 0 no-repeat;}
+
+/* FusionMenu Dropdown */
+.menutop ul {background-image: url(../images/menus/style2/drop-bg-1.png);}
+.menutop ul.columns2, .menutop .columns2 > .drop-top {background-image: url(../images/menus/style2/drop-bg-2.png);}
+.menutop ul, .menutop .drop-top {background-image: url(../images/menus/style2/drop-bg-1.png);}
+.menutop ul.columns2, .menutop .columns2 > .drop-top {background-image: url(../images/menus/style2/drop-bg-2.png);}
+.menutop ul li {background: url(../images/menus/style2/dropmenu-itembg.png) 50% 100% no-repeat;}
+.menutop ul li > .bullet {background: url(../images/body/style2/sidemenu-icon.png) 6px 0 no-repeat;}
+.menutop ul li > .daddy span {background: url(../images/menus/style2/dropdown-daddy.png) 96% 50% no-repeat;}
+
+/* Top */
+.bodylevel-high #rt-top {background: url(../images/body/style2/section-overlay2.png) 50% 0 repeat-y;}
+.bodylevel-high #rt-top2 {background: url(../images/body/style2/section-shadow-bottom2.png) 50% 100% no-repeat;}
+
+/* Header */
+.bodylevel-high #rt-header-wrap {background: url(../images/backgrounds/style2/header-bg.jpg) 50% 0 no-repeat;}
+.bodylevel-high #rt-header-graphic, .bodylevel-med #rt-header-graphic {background: url(../images/backgrounds/style2/header-graphic.png) 100% 0 no-repeat;}
+
+/* Showcase */
+#rt-showcase {background: url(../images/body/style2/section-shadow-top.png) 50% 0 no-repeat;}
+#rt-showcase2 {background: url(../images/body/style2/section-shadow-bottom.png) 50% 100% no-repeat;}
+.bodylevel-high #rt-showcase3 {background: url(../images/body/style2/section-overlay.png) 50% 0 repeat-y;}
+.bodylevel-low #rt-showcase2 {background: url(../images/body/style2/body-div.png) 50% 100% repeat-x;}
+
+/* Modules */
+.bodylevel-high .module-title {background: url(../images/body/modules/style2/module-title-m.png) 50% 100% repeat-x;}
+.bodylevel-high .module-title2 {background: url(../images/body/modules/style2/module-title-l.png) 0 100% no-repeat;}
+.bodylevel-high .module-title3 {background: url(../images/body/modules/style2/module-title-r.png) 100% 100% no-repeat;}
+.module-title .title {background: url(../images/body/modules/style2/module-title-icon.png) 12px 20px no-repeat;}
+
+/* Module Variations */
+.flag1 .module-title {background: url(../images/body/modules/style2/module-header-flag-l.png) 0 0 no-repeat;}
+.flag1 .module-title2 {background: url(../images/body/modules/style2/module-header-flag-r.png) 100% 0 no-repeat;}
+.flag2 .module-title {background: url(../images/body/modules/style2/module-header-flag-l.png) 0 -114px no-repeat;}
+.flag2 .module-title2 {background: url(../images/body/modules/style2/module-header-flag-r.png) 100% -114px no-repeat;}
+.flag3 .module-title {background: url(../images/body/modules/style2/module-header-flag-l.png) 0 -228px no-repeat;}
+.flag3 .module-title2 {background: url(../images/body/modules/style2/module-header-flag-r.png) 100% -228px no-repeat;}
+.title1 .module-title {background: url(../images/body/modules/style2/module-title1-bg.png) 50% 100% no-repeat;}
+.title2 .module-title {background: url(../images/body/style2/section-shadow-bottom2.png) 100% 100% no-repeat;}
+.title3 .module-title2 {background: url(../images/body/style2/body-div.png) 50% 100% repeat-x;}
+.boxleft1 .rt-block {background: url(../images/body/style2/section-overlay.png) 100% 0 repeat-y;}
+.boxleft2 .rt-block {background: url(../images/body/style2/section-overlay2.png) 100% 0 repeat-y;}
+.boxright1 .rt-block {background: url(../images/body/style2/section-overlay.png) 0 0 repeat-y;}
+.boxright2 .rt-block {background: url(../images/body/style2/section-overlay2.png) 0 0 repeat-y;}
+.divider .rt-block {background: url(../images/body/style2/body-div.png) 50% 100% repeat-x;}
+
+/* Articles */
+.rt-articleinfo {background: url(../images/body/modules/style2/articleinfo-m.png) 50% 100% repeat-x;}
+.rt-articleinfo2 {background: url(../images/body/modules/style2/articleinfo-l.png) 0 100% no-repeat;}
+.rt-articleinfo3 {background: url(../images/body/modules/style2/articleinfo-r.png) 100% 100% no-repeat;}
+
+/* Side Menu */
+#rt-main-surround ul.menu li {background: url(../images/body/style2/sidemenu-itembg.png) 50% 100% no-repeat;}
+ul.bullet-b li, ul.bullet-c li, #rt-main-surround ul.menu a, #rt-main-surround ul.menu .separator, #rt-main-surround ul.menu .item {background: url(../images/body/style2/sidemenu-icon.png) 0 1px no-repeat;}
+#rt-main-surround ul.menu ul {background: url(../images/body/style2/sidemenu-active-bg.png) 50% 0 no-repeat;}
+
+/* Main Bottom */
+#rt-mainbottom {background: url(../images/body/style2/section-overlay2.png) 50% 0 repeat-y;}
+#rt-mainbottom2 {background: url(../images/body/style2/section-shadow-top2.png) 50% 0 no-repeat;}
+#rt-mainbottom3 {background: url(../images/body/style2/section-shadow-bottom2.png) 50% 100% no-repeat;}
+
+/* Footer */
+.bodylevel-high #rt-footer {background: url(../images/backgrounds/style2/bottom-bg.jpg) 50% 0 repeat-y;}
+#rt-footer2 {background: url(../images/body/style2/section-shadow-top2.png) 50% 0 no-repeat;}
+#rt-footer3 {background: url(../images/body/style2/section-shadow-bottom2.png) 50% 100% no-repeat;}
+
+/* Copyright */
+.bodylevel-high #rt-copyright {background: url(../images/backgrounds/style2/footer-bg.jpg) 50% 100% no-repeat;}
+#rocket, #gantry-logo {background: url(../images/body/style2/branding.png) 0 0 no-repeat;}
+
+/* Typography */
+.readon, .readon-wrap1 .readon1-l {background: url(../images/body/style2/readon-l.png) 0 2px no-repeat;}
+.readon span, .readon .button, .readon-wrap1 .readon1-r {background: url(../images/body/style2/readon-r.png) 100% 2px no-repeat;}
+ul.bullet-e li, .rt-joomla .icon {background-image: url(../images/body/style2/rokicons.png);}
+ul.bullet-d li, .rokradios, .rokchecks, .rokradios-active, .rokchecks-active {background-image: url(../images/body/style2/inputs.png);}
+ul.bullet-a li, #form-login ul li a, #com-form-login ul li a, ul.rt-more-articles li a, .rt-section-list ul li a, ul.mostread li a, ul.latestnews li a, .weblinks ul li a {background-image: url(../images/body/style2/list-arrow.png);}
+.rt-pollbuttons {background: url(../images/body/style2/sidemenu-active-bg.png) 50% 0 no-repeat;}
+#rt-main .inputbox, #rt-main input#email, #rt-main input#name, #rt-main input#username, #rt-main input#password, #rt-main input#password2, #rt-main input#passwd {border-top: 1px solid #bbb;border-left: 1px solid #bbb;border-right: 1px solid #fff;border-bottom: 1px solid #fff;}
+#rt-accessibility a.small .button, #rt-accessibility a.large .button, #rt-accessibility a.small:hover .button, #rt-accessibility a.large:hover .button {background-image: url(../images/body/style2/fontsizer.png);}
+
+/* Breadcrumbs */
+#rt-breadcrumbs2 {background: url(../images/body/style2/section-shadow-bottom2.png) 50% 100% no-repeat;}
+#breadcrumbs-home {background: url(../images/body/style2/rokicons.png) 0 -66px no-repeat;}
+span.breadcrumbs img {background: url(../images/menus/style2/dropdown-daddy.png) 0 50% no-repeat;}
+
+/* Login Feature */
+#rt-login-button .buttontext span {background: url(../images/body/style2/list-arrow.png) 0 0 no-repeat;}
+
+/* Joomla Specific */
+#rt-mainbody .rt-joomla-table {background: url(../images/body/style2/section-shadow-bottom.png) 50% 100% no-repeat;}
+#rt-mainbody .rt-joomla-table th {background: url(../images/body/style2/section-shadow-top.png) 50% 18px no-repeat;}
+#rt-mainbody .rt-joomla-table tbody {background: url(../images/body/style2/section-overlay2.png) 50% 0 repeat-y;}
+#rt-mainbody .rt-joomla-table td {background: url(../images/body/style2/body-div.png) 50% 0 repeat-x;}
+
+/* Demo Styles */
+.showcase-image {background: url(../images/body/style2/showcase-image.png) 50% 0 no-repeat;}
+
+/*** RT EXTENSIONS *************************/
+
+/* RokTabs */
+.roktabs-wrapper .roktabs-links ul li.active {background: url(../images/body/style2/roktab-active-l.png) 0 50% no-repeat;}
+.roktabs-wrapper .roktabs-links ul li.active span {background: url(../images/body/style2/roktab-active-r.png) 100% 50% no-repeat;}
+.roktabs-wrapper .arrow-next, roktabs-wrapper .arrow-next-hover {background-image: url(../images/body/style2/readon-r.png);}
+.roktabs-wrapper .arrow-prev, .roktabs-wrapper .arrow-prev-hover {background-image: url(../images/body/style2/readon-l.png);}
+.roktabs-wrapper .roktabs-container-tr {background: url(../images/body/modules/style2/module-title-m.png) 50% 0 repeat-x;}
+.roktabs-wrapper .roktabs-container-tl {background: url(../images/body/modules/style2/module-title-l.png) 0 0 no-repeat;}
+.roktabs-wrapper .roktabs-container-br {background: url(../images/body/modules/style2/module-title-r.png) 100% 0 no-repeat;}
+
+/* RokNewsPager */
+body .roknewspager-prev, body .roknewspager-prev-disabled {background: url(../images/body/style2/readon-l.png) 0 2px no-repeat;}
+body .roknewspager-next, body .roknewspager-next-disabled {background: url(../images/body/style2/readon-r.png) 100% 2px no-repeat;}
+body .roknewspager-h3, body ul.roknewspager li {background: url(../images/body/style2/sidemenu-active-bg.png) 50% 0 no-repeat;}
+
+/* RokAjaxSearch */
+#rokajaxsearch .inputbox {border-top: 1px solid #bbb;border-left: 1px solid #bbb;border-right: 1px solid #fff;border-bottom: 1px solid #fff;}
+body #roksearch_results {background: url(../images/backgrounds/style2/surround-texture.png) 50% 0;border-top: 1px solid #bbb;border-left: 1px solid #bbb;border-right: 1px solid #fff;border-bottom: 1px solid #fff;}
+body #roksearch_results .roksearch_header, body #roksearch_results .roksearch_row_btm {background: url(../images/body/style2/section-overlay2.png) 50% 0 repeat-y;border-bottom: 1px solid #bbb;color: inherit;}
+body #roksearch_results .roksearch_even {background: url(../images/body/style2/section-overlay2.png) 50% 0 repeat-y;border-bottom: 1px solid #bbb;}
+body #roksearch_results .roksearch_odd {background: none;border-bottom: 1px solid #bbb;}
+body #roksearch_results span, body #roksearch_results .roksearch_row_btm span {color: inherit;}

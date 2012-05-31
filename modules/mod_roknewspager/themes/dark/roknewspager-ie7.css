@@ -1,0 +1,9 @@
+/**
+ * @author RocketTheme, LLC http://www.rockettheme.com
+ * @copyright Copyright (C) 2007 - 2011 RocketTheme, LLC
+ * @license http://www.gnu.org/licenses/gpl-2.0.html GNU/GPLv2 only
+ */
+.roknewspager-pages {zoom: 1;}
+.roknewspager-numbers {display: inline;}
+.roknewspager-prev, .roknewspager-next, .roknewspager-prev-disabled, .roknewspager-next-disabled {margin-top: 1px;}
+.article-rating {width: 160px;text-align:right;}

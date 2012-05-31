@@ -1,0 +1,48 @@
+/**
+ * @package   Juxta Template - RocketTheme
+ * @version   1.5.1 May 10, 2010
+ * @author    RocketTheme http://www.rockettheme.com
+ * @copyright Copyright (C) 2007 - 2010 RocketTheme, LLC
+ * @license   http://www.rockettheme.com/legal/license.php RocketTheme Proprietary Use License
+ */
+ 
+/* Main Background - Style1 */
+.backgroundlevel-high.backgroundstyle-style1 {background: url(../images/backgrounds/style1/main-bg-texture.jpg) 50% 0;}
+.backgroundlevel-high.backgroundstyle-style1 #rt-mainbg-overlay, .backgroundlevel-low.backgroundstyle-style1 #rt-mainbg-overlay {background: url(../images/backgrounds/style1/main-bg-overlay.png) 50% 0 repeat-x;}
+.backgroundlevel-med.backgroundstyle-style1 {background: url(../images/backgrounds/style1/main-bg-texture.jpg) 50% 0;}
+.backgroundlevel-low.backgroundstyle-style1 {background: #5F331C;}
+
+/* Main Background - Style2 */
+.backgroundlevel-high.backgroundstyle-style2 {background: url(../images/backgrounds/style2/main-bg-texture.jpg) 50% 0;}
+.backgroundlevel-high.backgroundstyle-style2 #rt-mainbg-overlay {background: url(../images/backgrounds/style2/main-bg-overlay.png) 50% 0 repeat-x;}
+.backgroundlevel-med.backgroundstyle-style2 {background: url(../images/backgrounds/style2/main-bg-texture.jpg) 50% 0;}
+.backgroundlevel-low.backgroundstyle-style2 {background: #AA521B;}
+.backgroundlevel-low.backgroundstyle-style2 #rt-mainbg-overlay {background: url(../images/backgrounds/style2/main-bg-overlay.png) 50% 0 repeat-x;}
+
+/* Main Background - Style3 */
+.backgroundlevel-high.backgroundstyle-style3 {background: url(../images/backgrounds/style3/main-bg-texture.jpg) 50% 0;}
+.backgroundlevel-high.backgroundstyle-style3 #rt-mainbg-overlay {background: url(../images/backgrounds/style3/main-bg-overlay.png) 50% 0 repeat-x;}
+.backgroundlevel-med.backgroundstyle-style3 {background: url(../images/backgrounds/style3/main-bg-texture.jpg) 50% 0;}
+.backgroundlevel-low.backgroundstyle-style3 {background: #5B0000;}
+.backgroundlevel-low.backgroundstyle-style3  #rt-mainbg-overlay {background: url(../images/backgrounds/style3/main-bg-overlay.png) 50% 0 repeat-x;}
+
+/* Main Background - Style4 */
+.backgroundlevel-high.backgroundstyle-style4 {background: url(../images/backgrounds/style4/main-bg-texture.jpg) 50% 0;}
+.backgroundlevel-high.backgroundstyle-style4 #rt-mainbg-overlay {background: url(../images/backgrounds/style4/main-bg-overlay.png) 50% 0 repeat-x;}
+.backgroundlevel-med.backgroundstyle-style4 {background: url(../images/backgrounds/style4/main-bg-texture.jpg) 50% 0;}
+.backgroundlevel-low.backgroundstyle-style4 {background: #B88045;}
+.backgroundlevel-low.backgroundstyle-style4 #rt-mainbg-overlay {background: url(../images/backgrounds/style4/main-bg-overlay.png) 50% 0 repeat-x;}
+
+/* Main Background - Style5 */
+.backgroundlevel-high.backgroundstyle-style5 {background: url(../images/backgrounds/style5/main-bg-texture.jpg) 50% 0;}
+.backgroundlevel-high.backgroundstyle-style5 #rt-mainbg-overlay {background: url(../images/backgrounds/style5/main-bg-overlay.png) 50% 0 repeat-x;}
+.backgroundlevel-med.backgroundstyle-style5 {background: url(../images/backgrounds/style5/main-bg-texture.jpg) 50% 0;}
+.backgroundlevel-low.backgroundstyle-style5 {background: #333;}
+.backgroundlevel-low.backgroundstyle-style5 #rt-mainbg-overlay {background: url(../images/backgrounds/style5/main-bg-overlay.png) 50% 0 repeat-x;}
+
+/* Main Background - Style6 */
+.backgroundlevel-high.backgroundstyle-style6 {background: url(../images/backgrounds/style6/main-bg-texture.jpg) 50% 0;}
+.backgroundlevel-high.backgroundstyle-style6 #rt-mainbg-overlay {background: url(../images/backgrounds/style6/main-bg-overlay.png) 50% 0 repeat-x;}
+.backgroundlevel-med.backgroundstyle-style6 {background: url(../images/backgrounds/style6/main-bg-texture.jpg) 50% 0;}
+.backgroundlevel-low.backgroundstyle-style6 {background: #00455F;}
+.backgroundlevel-low.backgroundstyle-style6 #rt-mainbg-overlay {background: url(../images/backgrounds/style6/main-bg-overlay.png) 50% 0 repeat-x;}

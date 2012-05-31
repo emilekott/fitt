@@ -1,0 +1,9 @@
+/**
+ * @author    RocketTheme http://www.rockettheme.com
+ * @copyright Copyright (C) 2007 - 2011 RocketTheme, LLC
+ * @license   http://www.gnu.org/licenses/gpl-2.0.html GNU/GPLv2 only
+ */
+/* RokGallery - Grid Module - Light */
+
+.rg-gm-slice-item:hover {background: #222;}
+.rg-gm-slice {background: #333;box-shadow: 0 1px 3px rgba(0,0,0,0.6);-webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.6);}

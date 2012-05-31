@@ -1,0 +1,322 @@
+
+#hikashop_main_content input,#hikashop_main_content textarea,#hikashop_main_content select,
+#hikashop_main_content fieldset input,#hikashop_main_content fieldset textarea,#hikashop_main_content fieldset select,
+#hikashop_main_content fieldset img,#hikashop_main_content fieldset button{
+	float:none;
+}
+#hikashop_main_content label{
+	float:none;
+	display:inline;
+}
+#hikashop_main_content fieldset{
+	border:1px solid #CCCCCC;
+	background-color:#FFFFFF;
+}
+#hikashop_main_content table.admintable td.key,#hikashop_main_content  table.admintable td.paramlist_key {
+	background-color:#F6F6F6;
+	border-bottom:1px solid #E9E9E9;
+	border-right:1px solid #E9E9E9;
+	color:#666666;
+	font-weight:bold;
+	text-align:right;
+	width:140px;
+}
+
+#hikashop_main_content div.current{
+	background-color:#F9F9F9;
+}
+#hikashop_main_content FIELDSET.adminform LEGEND{
+    position:relative;
+    float:none;
+    top : 0px !important;
+}
+#hikashop_main_content dd{
+	width:auto;
+}
+
+span.onload
+{
+	background-image:url(../images/spinner.gif);
+	background-repeat:no-repeat;
+	background-position:left;
+	padding:2px 20px;
+}
+
+span.loading{
+	padding:2px 20px;
+}
+
+div.iframedoc{
+	height:300px;
+	display:none;
+}
+
+div.onload{
+	background-image:url(../images/spinner.gif);
+	background-repeat:no-repeat;
+	width:16px;
+	height:16px;
+	float : right;
+	margin-left : 3px;
+}
+
+.searchtext
+{
+	background-color: rgb(255, 255, 102);
+	color : black;
+	font-weight:bold;
+}
+
+.iframdoc{
+	display:none;
+	height:0px;
+}
+
+tr.sectiontableentry1  {
+	background-color:#F9F9F9;
+}
+tr.sectiontableentry2  {
+	background-color:#EEEEEE;
+}
+tr.sectiontableentry2:hover, tr.sectiontableentry1:hover, table.features_table tr.features:hover {
+background-color:#FFFFDD;
+}
+
+th.titletoggle{
+	width:65px;
+	white-space: nowrap;
+}
+
+th.titledate{
+	width:140px;
+	white-space: nowrap;
+}
+
+th.titlesender{
+	width:150px;
+	white-space: nowrap;
+}
+th.titlelink, th.titleorder{
+	width:100px;
+	white-space: nowrap;
+}
+
+th.titlebox, th.titleid, th.titlenum{
+	width:30px;
+	white-space: nowrap;
+}
+
+th.titlecolor{
+	width:12px;
+}
+
+td.key{
+	white-space: nowrap;
+}
+
+.hikashop_multilang_buttons{
+	float:right;
+	margin-right:5px;
+}
+.hikashop_multilang_button{
+	float:right;
+	color:#000000;
+	background:none repeat scroll 0 0 #F0F0F0;
+	border-left:1px solid #CCCCCC;
+	border-right:1px solid #CCCCCC;
+	border-top:1px solid #CCCCCC;
+	color:#666666;
+	margin-left:3px;
+	padding-left:10px;
+	padding-right:10px;
+	padding-bottom:4px;
+	padding-top:5px;
+	margin-top:9px;
+}
+/*
+
+
+div#iframedoc{
+	height : 0px;
+}
+
+
+*/
+/****************************************************/
+/* Some Icons which are not defined by the template */
+/****************************************************/
+
+.icon-32-hikashop {background-image:url(../images/icons/icon-32-hikashop.png);}
+.icon-48-affiliate {background-image:url(../images/icons/icon-48-affiliate.png);}
+.icon-48-currency {background-image:url(../images/icons/icon-48-currency.png);}
+.icon-48-order {background-image:url(../images/icons/icon-48-order.png);}
+.icon-48-hikashop {background-image:url(../images/icons/icon-48-hikashop.png);}
+.icon-48-tax {background-image:url(../images/icons/icon-48-tax.png);}
+.icon-48-discount {background-image:url(../images/icons/icon-48-discount.png);}
+.icon-48-characteristic {background-image:url(../images/icons/icon-48-characteristic.png);}
+.icon-48-banner {background-image:url(../images/icons/icon-48-banner.png);}
+.icon-48-view {background-image:url(../images/icons/icon-48-view.png);}
+.icon-48-field {background-image:url(../images/icons/icon-48-field.png);}
+.icon-32-limit {background-image:url(../images/icons/icon-32-limit.png);}
+.icon-48-limit {background-image:url(../images/icons/icon-48-limit.png);}
+.icon-48-filter {background-image:url(../images/icons/icon-48-filter.png);}
+
+/***************************************************************************/
+/* Some Messages to display on a popup because the CSS is not fully loaded */
+/***************************************************************************/
+
+div.hikashop_messages{
+	border-bottom-style:solid;
+	border-bottom-width:2px;
+	border-top-style:solid;
+	border-top-width:2px;
+	font-weight:bold;
+	margin:5px 10px;
+}
+
+.hikashop_messages li{
+	list-style-type : none;
+}
+
+div.hikashop_warning{
+	background-color:#EFE7B8;
+	border-bottom-color:#F0DC7E;
+	border-top-color:#F0DC7E;
+	color:#CC0000;
+}
+
+div.hikashop_success{
+	background-color:#CCFFBB;
+	border-bottom-color:#00AA00;
+	border-top-color:#00AA00;
+	color:#00AA00;
+}
+
+div.hikashop_info{
+	background-color:#C3D2E5;
+	border-bottom-color:#84A7DB;
+	border-top-color:#84A7DB;
+	color:#0055BB;
+}
+
+div.hikashop_error{
+	background-color:#E6C0C0;
+	border-bottom-color:#DE7A7B;
+	border-top-color:#DE7A7B;
+	color:#CC0000;
+}
+
+/********************************/
+/* CSS for dashboard menu items */
+/********************************/
+#hikashopcpanel div.icon a {
+	border:1px solid #F0F0F0;
+	color:#666666;
+	display:block;
+	float:left;
+	text-decoration:none;
+	vertical-align:middle;
+	width:100%;
+}
+#hikashopcpanel div.icon:hover a {
+	-moz-background-clip:border;
+	-moz-background-inline-policy:continuous;
+	-moz-background-origin:padding;
+	background:#F9F9F9 none repeat scroll 0 0;
+	border-color:#EEEEEE #CCCCCC #CCCCCC #EEEEEE;
+	border-style:solid;
+	border-width:1px;
+	color:#0B55C4;
+}
+#hikashopcpanel div.icon {
+	float:left;
+	margin-bottom:5px;
+	margin-right:5px;
+	text-align:center;
+	width: 100%;
+}
+#hikashopcpanel span {
+	display:block;
+	text-align:center;
+}
+#hikashopcpanel img {
+	margin:0 auto;
+	padding:10px 0;
+}
+
+.hikachart{
+	float: left;
+}
+
+/*************************/
+/*   ACL Table           */
+/*************************/
+
+table.acltable thead{
+    background-color:#5471B5;
+    color:white;
+}
+
+table.acltable{
+    border-collapse: collapse;
+    background-color:white;
+}
+
+table.acltable td{
+    padding:4px;
+    border: #cccccc 1px solid;
+}
+
+table.acltable th{
+    padding: 5px 15px;
+    border: #cccccc 1px solid;
+}
+
+
+
+table.acltable td.checkfield{
+    text-align:center;
+}
+
+table.acltable tr.aclline:hover{
+    background-color:#CDE6E3;
+}
+
+
+/*Checkout Workflow*/
+
+#CheckoutWorkflow .checkoutElem{
+    background-color:#e4e9e8;
+    color:#2f5661;
+    border-bottom:1px solid #608088;
+    border-right:1px solid #608088;
+    border-top:1px solid #cacaca;
+    border-left:1px solid #cacaca;}
+
+#CheckoutWorkflow .checkoutElem:hover{
+    background-color:#e4e9e8;
+    opacity:0.6;
+    filter:alpha(opacity=60);
+    color:#17353d;
+}
+
+#checkoutelements{
+    padding-bottom:10px;}
+
+#CheckoutWorkflow #checkoutTrash{
+    border:none;
+    background:url(../images/trash.png) no-repeat top right;}
+
+#CheckoutWorkflow .workflow_zone{
+    background-color:#f6f6f6;
+    border-bottom:1px solid #bdbdbd;
+    border-right:1px solid #bdbdbd;
+    border-top:1px solid #dcdcdc;
+    border-left:1px solid #dcdcdc;}
+
+#CheckoutWorkflow .workflow_zone .checkoutElem{
+    background-color:#fff;
+    color:#545454;
+    border:none;
+    border-bottom:1px solid #bdbdbd;
+    border-right:1px solid #bdbdbd;}

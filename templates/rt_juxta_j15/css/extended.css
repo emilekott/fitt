@@ -1,0 +1,80 @@
+/* K2 Overrides */
+/* K2 Modules */
+.k2ItemsBlock .even, .k2ItemsBlock .odd {background:none;}
+div.k2ItemsBlock ul li img.moduleItemAuthorAvatar {margin:6px 4px 0 0;}
+.k2LatestCommentsBlock .even, .k2LatestCommentsBlock .odd {background:none;}
+
+/* K2 Article */
+div.itemToolbar{background:none;}
+div.itemAuthorBlock{background:none;}
+div.itemComments{background:none;}
+div.itemComments ul.itemCommentsList .even {background:none;}
+div.itemComments ul.itemCommentsList .odd {background:none;}
+
+.cssstyle-style1 div.itemHeader h2.itemTitle {background: url(../images/body/modules/style1/module-title1-bg.png) 50% 100% no-repeat;padding-bottom:15px;display:inline-block;}
+.cssstyle-style2 div.itemHeader h2.itemTitle {background: url(../images/body/modules/style2/module-title1-bg.png) 50% 100% no-repeat;padding-bottom:15px;display:inline-block;}
+.cssstyle-style3 div.itemHeader h2.itemTitle {background: url(../images/body/modules/style3/module-title1-bg.png) 50% 100% no-repeat;padding-bottom:15px;display:inline-block;}
+.cssstyle-style4 div.itemHeader h2.itemTitle {background: url(../images/body/modules/style4/module-title1-bg.png) 50% 100% no-repeat;padding-bottom:15px;display:inline-block;}
+.cssstyle-style5 div.itemHeader h2.itemTitle {background: url(../images/body/modules/style5/module-title1-bg.png) 50% 100% no-repeat;padding-bottom:15px;display:inline-block;}
+.cssstyle-style6 div.itemHeader h2.itemTitle {background: url(../images/body/modules/style6/module-title1-bg.png) 50% 100% no-repeat;padding-bottom:15px;display:inline-block;}
+div.itemHeader span.itemDateCreated{display:block;}
+
+/* K2 Images */
+div.itemToolbar ul li a#fontIncrease img {background:url(../images/icons/icon-add.png) no-repeat;height:16px;width:16px;}
+div.itemToolbar ul li a#fontDecrease img {background:url(../images/icons/icon-minus.png) no-repeat;height:16px;width:16px;}
+
+/* Virtuemart 1.14 */
+/* Virtuemart Modules */
+
+/* Main Component */
+/* Categories */
+.cssstyle-style1 #vmMainPage h3, .csstyle-style1 #vmMainPage h2 {background: url(../images/body/modules/style1/module-title1-bg.png) 50% 100% no-repeat;padding-bottom:15px;display:block;}
+.cssstyle-style2 #vmMainPage h3, .csstyle-style1 #vmMainPage h2 {background: url(../images/body/modules/style2/module-title1-bg.png) 50% 100% no-repeat;padding-bottom:15px;display:block;}
+.cssstyle-style3 #vmMainPage h3, .csstyle-style1 #vmMainPage h2 {background: url(../images/body/modules/style3/module-title1-bg.png) 50% 100% no-repeat;padding-bottom:15px;display:block;}
+.cssstyle-style4 #vmMainPage h3, .csstyle-style1 #vmMainPage h2 {background: url(../images/body/modules/style4/module-title1-bg.png) 50% 100% no-repeat;padding-bottom:15px;display:block;}
+.cssstyle-style5 #vmMainPage h3, .csstyle-style1 #vmMainPage h2 {background: url(../images/body/modules/style5/module-title1-bg.png) 50% 100% no-repeat;padding-bottom:15px;display:block;}
+.cssstyle-style6 #vmMainPage h3, .csstyle-style1 #vmMainPage h2 {background: url(../images/body/modules/style6/module-title1-bg.png) 50% 100% no-repeat;padding-bottom:15px;display:block;}
+#vmMainPage h3 a {float:right;margin:5px 0 0 5px;}
+#vmMainPage .buttons_heading  {margin:0 0 0 3px;}
+#vmMainPage .buttons_heading a {float:left;}
+
+/* Products */
+.vmCartContainer {background:none;}
+
+/* Xmap */
+.xmap ul li {height: 26px;line-height:26px;}
+.cssstyle-style1 .xmap .menutitle {background: url(../images/body/modules/style1/module-title1-bg.png) 50% 100% no-repeat;padding-bottom:15px;display:inline-block;}
+.cssstyle-style1 .xmapexcl {background: url(../images/menus/style1/dropdown-daddy.png) no-repeat scroll 0 100%;height:26px;width:6px;display:inline-block;}
+.cssstyle-style2 .xmap .menutitle {background: url(../images/body/modules/style2/module-title1-bg.png) 50% 100% no-repeat;padding-bottom:15px;display:inline-block;}
+.cssstyle-style2 .xmapexcl {background: url(../images/menus/style2/dropdown-daddy.png) no-repeat scroll 0 100%;height:26px;width:6px;display:inline-block;}
+.cssstyle-style3 .xmap .menutitle {background: url(../images/body/modules/style3/module-title1-bg.png) 50% 100% no-repeat;padding-bottom:15px;display:inline-block;}
+.cssstyle-style3 .xmapexcl {background: url(../images/menus/style3/dropdown-daddy.png) no-repeat scroll 0 100%;height:26px;width:6px;display:inline-block;}
+.cssstyle-style4 .xmap .menutitle {background: url(../images/body/modules/style4/module-title1-bg.png) 50% 100% no-repeat;padding-bottom:15px;display:inline-block;}
+.cssstyle-style4 .xmapexcl {background: url(../images/menus/style4/dropdown-daddy.png) no-repeat scroll 0 100%;height:26px;width:6px;display:inline-block;}
+.cssstyle-style5 .xmap .menutitle {background: url(../images/body/modules/style5/module-title1-bg.png) 50% 100% no-repeat;padding-bottom:15px;display:inline-block;}
+.cssstyle-style5 .xmapexcl {background: url(../images/menus/style5/dropdown-daddy.png) no-repeat scroll 0 100%;height:26px;width:6px;display:inline-block;}
+.cssstyle-style6 .xmap .menutitle {background: url(../images/body/modules/style6/module-title1-bg.png) 50% 100% no-repeat;padding-bottom:15px;display:inline-block;}
+.cssstyle-style6 .xmapexcl {background: url(../images/menus/style6/dropdown-daddy.png) no-repeat scroll 0 100%;height:26px;width:6px;display:inline-block;}
+.xmap a img {display:none;}
+
+/* Fabrik */
+.cssstyle-style1 .fabrikForm h1 {background: url(../images/body/modules/style1/module-title1-bg.png) 50% 100% no-repeat;padding-bottom: 15px;}
+.cssstyle-style2 .fabrikForm h1 {background: url(../images/body/modules/style2/module-title1-bg.png) 50% 100% no-repeat;padding-bottom: 15px;}
+.cssstyle-style3 .fabrikForm h1 {background: url(../images/body/modules/style3/module-title1-bg.png) 50% 100% no-repeat;padding-bottom: 15px;}
+.cssstyle-style4 .fabrikForm h1 {background: url(../images/body/modules/style4/module-title1-bg.png) 50% 100% no-repeat;padding-bottom: 15px;}
+.cssstyle-style5 .fabrikForm h1 {background: url(../images/body/modules/style5/module-title1-bg.png) 50% 100% no-repeat;padding-bottom: 15px;}
+.cssstyle-style6 .fabrikForm h1 {background: url(../images/body/modules/style6/module-title1-bg.png) 50% 100% no-repeat;padding-bottom: 15px;}
+
+/* Rok Modules */
+
+/* rokquickcart */
+.cssstyle-style1 .cart_quickcart h2 {background: url(../images/body/modules/style1/module-title1-bg.png) 50% 100% no-repeat;padding-bottom:15px;display:inline-block;}
+.cssstyle-style2 .cart_quickcart h2 {background: url(../images/body/modules/style2/module-title1-bg.png) 50% 100% no-repeat;padding-bottom:15px;display:inline-block;}
+.cssstyle-style3 .cart_quickcart h2 {background: url(../images/body/modules/style3/module-title1-bg.png) 50% 100% no-repeat;padding-bottom:15px;display:inline-block;}
+.cssstyle-style4 .cart_quickcart h2 {background: url(../images/body/modules/style4/module-title1-bg.png) 50% 100% no-repeat;padding-bottom:15px;display:inline-block;}
+.cssstyle-style5 .cart_quickcart h2 {background: url(../images/body/modules/style5/module-title1-bg.png) 50% 100% no-repeat;padding-bottom:15px;display:inline-block;}
+.cssstyle-style6 .cart_quickcart h2 {background: url(../images/body/modules/style6/module-title1-bg.png) 50% 100% no-repeat;padding-bottom:15px;display:inline-block;}
+.cart_buttons {text-align:right;}
+.simpleCart_shelfItem {background:none;}
+.cart_product_grad,.cart_product_sur3,.cart_product_sur4 {background:none;}
+.cart_yourcart,.cart_grad,.cart_sur1 ,.cart_sur2,.cart_sur3,.cart_sur4 {background:none;}

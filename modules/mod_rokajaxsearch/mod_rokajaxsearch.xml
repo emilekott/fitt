@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="1.6.0" method="upgrade" client="site">
+	<name>RokAjaxSearch</name>
+	<author>RocketTheme, LLC</author>
+	<creationDate>March 2, 2011</creationDate>
+	<authorEmail>support@rockettheme.com</authorEmail>
+	<authorUrl>http://www.rockettheme.com</authorUrl>
+	<copyright>(C) 2005 - 2011 RocketTheme, LLC. All rights reserved.</copyright>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<version>1.0</version>
+	<description>RokAjaxSearch is an ajaxian searcher that displays the results immediately and allows to choose the proper one.</description>
+	<files>
+		<filename module="mod_rokajaxsearch">mod_rokajaxsearch.php</filename>
+		<filename>RT-LICENSE.php</filename>
+		<filename>CHANGELOG.php</filename>
+		<filename>helper.php</filename>
+		<filename>index.html</filename>
+		<folder>tmpl/</folder>
+		<folder>js/</folder>
+		<folder>css/</folder>
+		<folder>images/</folder>
+		<folder>themes/</folder>
+		<folder>fields/</folder>
+	</files>
+	<languages>
+		<language tag="en-GB">en-GB.mod_rokajaxsearch.ini</language>
+	</languages>
+    
+	<config>
+		<fields name="params">
+			<fieldset name="basic" addfieldpath="/modules/mod_rokajaxsearch/fields">
+                <field name="moduleclass_sfx" type="text" default="" label="Module Class Suffix" description="PARAMMODULECLASSSUFFIX" />
+                <field name="search_page" type="text" default="index.php?option=com_search&amp;view=search&amp;tmpl=component" label="Search page URL." description="Relative path to your search page. &lt;br /&gt;Example: index.php?option=com_search" />
+                <field name="adv_search_page" type="text" default="index.php?option=com_search&amp;view=search" label="Advanced Search page URL." description="Relative path to your advanced search page. &lt;br /&gt;Example: index.php?option=com_search&amp;view=search" />
+                <field name="spacer_style_options" type="spacer" default="" label="&lt;div id=&quot;content-label&quot;  style=&quot;font-weight:normal;font-size:12px;color:#fff;padding:4px;margin:0;background:#666;&quot;&gt;Style Options&lt;/div&gt;" description="" />
+                <field name="include_css" type="radio" default="1" label="Include RokAjaxSearch default CSS">
+                    <option value="0">JNO</option>
+                    <option value="1">JYES</option>
+                </field>
+                <field name="theme" type="list" default="blue" label="Theme Style">
+                    <option value="blue">Blue</option>
+                    <option value="light">Light</option>
+                    <option value="dark">Dark</option>
+                </field>
+                <field name="spacer_advanced_search" type="spacer" default="" label="&lt;div id=&quot;content-label&quot;  style=&quot;font-weight:normal;font-size:12px;color:#fff;padding:4px;margin:0;background:#666;&quot;&gt;Advanced Search&lt;/div&gt;" description="This part is for you to change to your needs. These will be the default search alternatives passed to com_search. Same options as on the com_search page." />
+                <field name="searchphrase" type="list" default="any" label="Searchphrase">
+                    <option value="any">Any words</option>
+                    <option value="all">All words</option>
+                    <option value="exact">Exact phrase</option>
+                </field>
+                <field name="ordering" type="list" default="newest" label="Ordering">
+                    <option value="alpha">Alphabetical</option>
+                    <option value="category">Section/Category</option>
+                    <option value="newest">Newest first</option>
+                    <option value="oldest">Oldest first</option>
+                    <option value="popular">Most popular</option>
+                </field>
+                <field name="limit" type="list" default="10" label="Limit">
+                    <option value="3">3</option>
+                    <option value="5">5</option>
+                    <option value="10">10</option>
+                    <option value="15">15</option>
+                    <option value="20">20</option>
+                    <option value="25">25</option>
+                    <option value="30">30</option>
+                    <option value="50">50</option>
+                </field>
+                <field name="perpage" type="list" default="3" label="Results per page">
+                    <option value="3">3</option>
+                    <option value="5">5</option>
+                    <option value="10">10</option>
+                    <option value="15">15</option>
+                    <option value="20">20</option>
+                    <option value="25">25</option>
+                    <option value="30">30</option>
+                    <option value="50">50</option>
+                </field>
+                <field name="spacer_google" type="spacer" label="&lt;div id=&quot;content-label&quot;  style=&quot;font-weight:normal;font-size:12px;color:#fff;padding:4px;margin:0;background:#666;&quot;&gt;Google Settings&lt;/div&gt;" />
+                <field name="websearch" type="radio" default="0" label="Google Web Search" description="Enabling this will allow you to use Google API Search for searching the web via RokAjaxSearch. Note that the API Key is needed">
+                        <option value="1">JYES</option>
+                        <option value="0">JNO</option>
+                </field>
+                <field name="blogsearch" type="radio" default="0" label="Google Blog Search" description="Enabling this will allow you to use Google API Search for searching blogs content via RokAjaxSearch. Note that the API Key is needed">
+                        <option value="1">JYES</option>
+                        <option value="0">JNO</option>
+                </field>
+                <field name="imagesearch" type="radio" default="0" label="Google Images Search" description="Enabling this will allow you to use Google API Search for searching images via RokAjaxSearch. Note that the API Key is needed">
+                        <option value="1">JYES</option>
+                        <option value="0">JNO</option>
+                </field>
+                <field name="videosearch" type="radio" default="0" label="Google Videos Search" description="Enabling this will allow you to use Google API Search for searching vidoes via RokAjaxSearch. Note that the API Key is needed">
+                        <option value="1">JYES</option>
+                        <option value="0">JNO</option>
+                </field>
+                <field name="websearch_api" type="text" default="" label="Google Ajax Search API Key" description="In order to use RokAjaxSearch Web Search, you need a Google Ajax Search API Key. You can generate one for free at: http://code.google.com/apis/ajaxsearch/signup.html" />
+                <field name="show_pagination" type="radio" default="1" label="Show Pagination" description="Set this option to yes, if you want to show the pagination on google's results.">
+                    <option value="1">JYES</option>
+                    <option value="0">JNO</option>
+                </field>
+                <field name="safesearch" type="radio" default="MODERATE" label="Google SafeSearch" description="Search results will be restricted to results based on the safesearch value">
+                    <option value="STRICT">Strict</option>
+                    <option value="MODERATE">Moderate</option>
+                    <option value="OFF">Off</option>
+                </field>
+                <field name="image_size" type="radio" default="MEDIUM" label="Image Size to search" description="Image sizes to search for, works only when Image Search is enabled.">
+                    <option value="SMALL">Small</option>
+                    <option value="MEDIUM">Medium</option>
+                    <option value="LARGE">Large</option>
+                    <option value="EXTRA_LARGE">Extra Large</option>
+                </field>
+                <field name="show_estimated" type="radio" default="1" label="Show Estimated" description="Set this option to yes, if you want to show the estimated google results count.">
+                    <option value="1">JYES</option>
+                    <option value="0">JNO</option>
+                </field>
+                <field name="spacer_advanced_settings" type="spacer" default="" label="&lt;div id=&quot;content-label&quot;  style=&quot;font-weight:normal;font-size:12px;color:#fff;padding:4px;margin:0;background:#666;&quot;&gt;Advanced Settings&lt;/div&gt;" description="Here are some advance settings." />
+                <field name="hide_divs" type="text" default="" label="Hide div id(s)" description="If you want to hide one or more div tags on your page, input div ids here, seperate with space." />
+                <field name="include_link" type="radio" default="1" label="Link to all results" description="Set this option to yes, if you want a text to appear at the bottom of the result list that links to com_search page.">
+                    <option value="1">JYES</option>
+                    <option value="0">JNO</option>
+                </field>
+                <field name="show_description" type="radio" default="1" label="Show Description" description="Set this option to yes, if you want to show the description on each result item.">
+                    <option value="1">JYES</option>
+                    <option value="0">JNO</option>
+                </field>
+                <field name="include_category" type="radio" default="1" label="Include (Category/Section)" description="Set this option to yes, if you want category and section to show up under each title.">
+                    <option value="1">JYES</option>
+                    <option value="0">JNO</option>
+                </field>
+                <field name="show_readmore" type="radio" default="1" label="Show Read More link" description="Set this option to yes, if you want the read more link to show up under the description.">
+                    <option value="1">JYES</option>
+                    <option value="0">JNO</option>
+                </field>
+            </fieldset>
+        </fields>
+    </config>
+</extension>

@@ -1,0 +1,68 @@
+/**
+ * @package   Juxta Template - RocketTheme
+ * @version   1.5.1 May 10, 2010
+ * @author    RocketTheme http://www.rockettheme.com
+ * @copyright Copyright (C) 2007 - 2010 RocketTheme, LLC
+ * @license   http://www.rockettheme.com/legal/license.php RocketTheme Proprietary Use License
+ */
+
+/* Top Menu */
+body.rtl .menutop li.active.root,
+body.rtl .menutop li.root:hover,
+body.rtl .menutop li.root.f-mainparent-itemfocus,
+.menu-type-splitmenu.rtl .menutop li.active,
+.menu-type-splitmenu.rtl .menutop li:hover,
+.menu-type-splitmenu.rtl .menutop li.f-mainparent-itemfocus {background: url(../images/menus/style5/rtl/topmenu-active-m.png) 50% 0 repeat-x;}
+body.rtl .menutop li.active.root > .item,
+body.rtl .menutop li.root:hover > .item,
+body.rtl .menutop li.root.f-mainparent-itemfocus > .item,
+.menu-type-splitmenu.rtl .menutop li.active > .item,
+.menu-type-splitmenu.rtl .menutop li:hover > .item,
+.menu-type-splitmenu.rtl .menutop li.f-mainparent-itemfocus > .item {background: url(../images/menus/style5/rtl/topmenu-active-l.png) 0 0 no-repeat;}
+body.rtl .menutop li.active.root > .item span,
+body.rtl .menutop li.root:hover > .item span,
+body.rtl .menutop li.root.f-mainparent-itemfocus > .item span,
+.menu-type-splitmenu.rtl .menutop li.active > .item span,
+.menu-type-splitmenu.rtl .menutop li:hover > .item span,
+.menu-type-splitmenu.rtl .menutop li.f-mainparent-itemfocus > .item span {background: url(../images/menus/style5/rtl/topmenu-active-r.png) 100% 0 no-repeat;}
+
+/* FusionMenu Dropdown */
+body.rtl .menutop ul li > .bullet {background: url(../images/body/style5/rtl/sidemenu-icon.png) 98% 3px no-repeat;}
+body.rtl .menutop ul li > .daddy span {background: url(../images/menus/style5/rtl/dropdown-daddy.png) 8px 50% no-repeat;}
+
+/* Header */
+body.rtl #rt-header-wrap {background-position: 100% 0;}
+body.rtl #rt-header-graphic {background-position: 0 0;}
+
+/* Modules */
+body.rtl .module-title .title {background: url(../images/body/modules/style5/rtl/module-title-icon.png) 100% 20px no-repeat;}
+
+/* Module Variations */
+body.rtl .flag1 .module-title {background: url(../images/body/modules/style5/rtl/module-header-flag-l.png) 100% 0 no-repeat;}
+body.rtl .flag1 .module-title2 {background: url(../images/body/modules/style5/rtl/module-header-flag-r.png) 0 0 no-repeat;}
+body.rtl .flag2 .module-title {background: url(../images/body/modules/style5/rtl/module-header-flag-l.png) 100% -114px no-repeat;}
+body.rtl .flag2 .module-title2 {background: url(../images/body/modules/style5/rtl/module-header-flag-r.png) 0 -114px no-repeat;}
+body.rtl .flag3 .module-title {background: url(../images/body/modules/style5/rtl/module-header-flag-l.png) 100% -228px no-repeat;}
+body.rtl .flag3 .module-title2 {background: url(../images/body/modules/style5/rtl/module-header-flag-r.png) 0 -228px no-repeat;}
+body.rtl .boxleft1 .rt-module-surround {background-position: 0 0;}
+body.rtl .boxleft2 .rt-module-surround {background-position: 0 0;}
+body.rtl .boxright1 .rt-module-surround {background-position: 100% 0;}
+body.rtl .boxright2 .rt-module-surround {background-position: 100% 0;}
+
+/* Side Menu */
+body.rtl ul.bullet-b li, body.rtl ul.bullet-c li, body.rtl #rt-main-surround ul.menu a, body.rtl #rt-main-surround ul.menu .separator, body.rtl #rt-main-surround ul.menu .item {background: url(../images/body/style5/rtl/sidemenu-icon.png) 100% 4px no-repeat;}
+
+/* Typography */
+body.rtl #form-login ul li a, body.rtl #com-form-login ul li a, body.rtl ul.rt-more-articles li a, body.rtl .rt-section-list ul li a, body.rtl ul.mostread li a, body.rtl ul.latestnews li a, body.rtl .weblinks ul li a {background-image: url(../images/body/style5/rtl/list-arrow.png);}
+
+/* Breadcrumbs */
+body.rtl span.breadcrumbs img {background: url(../images/menus/style5/rtl/dropdown-daddy.png) 100% 50% no-repeat;}
+
+/* Login Feature */
+body.rtl ul.bullet-a li, body.rtl #rt-login-button .buttontext span {background: url(../images/body/style5/rtl/list-arrow.png) 100% 0 no-repeat;}
+
+/*** RT EXTENSIONS *************************/
+
+/* RokNewsPager */
+body.rtl .roknewspager-next, body.rtl .roknewspager-next-disabled {background: url(../images/body/style5/readon-l.png) 0 2px no-repeat;}
+body.rtl .roknewspager-prev, body.rtl .roknewspager-prev-disabled {background: url(../images/body/style5/readon-r.png) 100% 2px no-repeat;}

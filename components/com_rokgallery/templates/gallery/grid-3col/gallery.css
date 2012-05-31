@@ -1,0 +1,67 @@
+/**
+ * @author    RocketTheme http://www.rockettheme.com
+ * @copyright Copyright (C) 2007 - 2011 RocketTheme, LLC
+ * @license   http://www.gnu.org/licenses/gpl-2.0.html GNU/GPLv2 only
+ */
+/* RokGallery - Grid View - 3 Column */
+
+/* Header */
+.rg-view-header {margin: 0 0 15px 0;padding: 0 15px;position: relative;z-index: 1;height: 24px;}
+.rg-sort {float: left;}
+.rg-sort .desc, .rg-view-selector .desc {float: left;margin-right: 10px;font-style: italic;}
+.rg-sort-list, #main .rg-sort-list {list-style: none;margin: 0;padding: 0;display: inline-block;}
+.rg-sort-list li, #main .rg-sort-list li {display: inline-block;padding: 0 5px;margin: 0 2px;position: relative;}
+.rg-sort-list li a, #main .rg-sort-list li a {font-size: 12px;font-weight: normal;line-height: 20px;position: relative;text-decoration: none;}
+.rg-sort-list li.active, #main .rg-sort-list li.active {padding-right: 12px;}
+.rg-sort-list li.active a, #main .rg-sort-list li.active a {font-weight: bold;}
+.rg-sort-list li.active .indicator, #main .rg-sort-list li.active .indicator {display: block;position: absolute;width: 10px;height: 7px;bottom: -15px;left: 50%;margin-left: -5px;}
+.rg-sort-list li.active .sort-arrow, #main .rg-sort-list li.active .sort-arrow {position: absolute;display: block;width: 7px;height: 5px;top: 7px;right: 1px;background-repeat: no-repeat;}
+.rg-sort-list li.active .descending, #main .rg-sort-list li.active .descending {background-position: 0 0;}
+.rg-sort-list li.active .ascending, #main .rg-sort-list li.active .ascending {background-position: 0 -57px;}
+.rg-view-selector {float: right;}
+.rg-view-selector-list, #main .rg-view-selector-list {list-style: none;margin: -3px 0 0 0;padding: 0;display: inline-block;position: relative;z-index: 2;}
+.rg-view-selector-list li, #main .rg-view-selector-list li {display: inline-block;padding: 6px 6px 7px 6px;}
+.rg-view-selector-list a, #main .rg-view-selector-list a {display: block;width: 14px;height: 14px;background-repeat: no-repeat;cursor: pointer;}
+.rg-view-selector-list .grid-3col a {background-position: 50% 0;}
+.rg-view-selector-list .grid-4col a {background-position: 50% -19px;}
+.rg-view-selector-list .list-2col a {background-position: 50% -37px;}
+
+/* Grid */
+.rg-grid-view-container {position: relative;margin: 0 -10px;}
+.rg-grid-view {display: table;border-collapse: separate;width: 100%;}
+.rg-grid-view .grid-row {display: table-row;}
+.rg-grid-view .grid-row:first-child {background: none;}
+.rg-col3 .rg-grid {width: 33.3%;}
+.rg-grid-view .rg-grid {display: table-cell;float: none;vertical-align: top;transition: background-color 0.3s linear;-webkit-transition: background-color 0.3s linear;-moz-transition: background 0.3s linear;-o-transition: background-color 0.3s linear;}
+.rg-grid-view .rg-block {padding: 15px 5px;margin: 5px;text-align: center !important;border-radius: 3px;-moz-border-radius: 3px;}
+.rg-grid-view .grid-row .rg-grid:first-child {background-image: none;}
+.rg-grid-view .creation-date {display: block;font-style: italic;}
+.rg-grid-view .rg-grid-thumb {text-align: center !important;margin: 10px 0 0 0;padding: 8px 8px 12px; border-radius: 3px 3px 12px 12px;display: inline-block;}
+.rg-grid-view .rg-grid-thumb-link {display: block;}
+.rg-grid-view .rg-grid-thumb-img {border-radius: 3px;}
+.rg-grid-view .item-title {display: block;font-size: 130%;line-height: 120%;margin-top: 15px;}
+.rg-grid-view .item-caption {display: block;margin-top: 5px;font-size: 12px;font-style: italic;}
+.rg-grid-view .tag {font-size: 11px;line-height: 11px;display: inline-block;padding: 3px 5px;margin: 10px 1px 0 1px;border-radius: 5px;}
+.rg-grid-view .gallery-data {float: left; font-size: 11px;padding: 10px 0 0 0;line-height: 1em;}
+.rg-grid-view .gallery-data .views-count {background-position: 0 0;display: block;float: left;margin:0 8px 0 2px;padding-left: 17px;background-repeat:no-repeat;}
+.rg-grid-view .gallery-data .loves-count {background-position: 0 -216px;display: block;float: left;margin:0 8px 0 2px;padding-left: 17px;background-repeat:no-repeat;cursor: pointer;}
+.rg-grid-view .gallery-data .comments-count {background-position: 0 -108px;display: block;float: left;margin:0 8px 0 2px;padding-left: 17px;background-repeat:no-repeat;cursor: pointer;}
+.rg-grid-view .gallery-data .tags-count {background-position: 0 -144px;display: block;float: left;margin:0 8px 0 2px;padding-left: 17px;background-repeat:no-repeat;}
+.rg-grid-view .gallery-data .views-count:hover {background-position: 0 -36px;}
+.rg-grid-view .gallery-data .loves-count:hover {background-position: 0 -252px;}
+.rg-grid-view .gallery-data .comments-count:hover {background-position: 0 -108px;}
+.rg-grid-view .gallery-data .tags-count:hover {background-position: 0 -180px;}
+.rg-grid-view .gallery-data .loves-count.action-unlove, .rg-grid-view .gallery-data .loves-count.action-unlove:hover {background-position: 0 -288px;}
+.rg-grid-view .gallery-data .loves-count.loading, .rg-grid-view .gallery-data .loves-count.loading:hover {background: url(../../spinner-12.gif) center left no-repeat;}
+
+/* Pagination */
+.rg-view-pagination {margin: 0 -25px;padding: 15px 25px;text-align: center !important;position: relative;}
+.rg-view-pagination-list {margin: 0;padding: 0;list-style: none;}
+.rg-view-pagination-list li {display: inline-block;padding: 0 2px;}
+.rg-view-pagination-list li a {font-weight: normal;}
+.rg-view-pagination .prev, .rg-view-pagination .next {display: block;position: absolute;top: 15px;font-weight: normal;font-size: 130%;}
+.rg-view-pagination .prev {left: 25px;}
+.rg-view-pagination .next {right: 25px;}
+
+/* Utility */
+html body * span.clear, html body * div.clear, html body * li.clear, html body * dd.clear {background: none;border: 0;clear: both;display: block;float: none;font-size: 0;list-style: none;margin: 0;padding: 0;overflow: hidden;visibility: hidden;width: 0;height: 0;}

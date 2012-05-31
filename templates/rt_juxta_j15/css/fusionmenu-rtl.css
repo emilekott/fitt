@@ -1,0 +1,23 @@
+/**
+ * @package   Juxta Template - RocketTheme
+ * @version   1.5.1 May 10, 2010
+ * @author    RocketTheme http://www.rockettheme.com
+ * @copyright Copyright (C) 2007 - 2010 RocketTheme, LLC
+ * @license   http://www.rockettheme.com/legal/license.php RocketTheme Proprietary Use License
+ */
+ 
+/* Root Items */
+body.rtl .menutop li.root {float: right;}
+body.rtl .menutop li.parent.root .item span {padding-right: 21px;padding-left: 28px;}
+body.cssstyle-style5.rtl .menutop li.parent.root .item span, body.cssstyle-style6.rtl .menutop li.parent.root .item span {padding-right: 25px;padding-left: 28px;}
+
+/* Dropdowns */
+body.rtl .menutop ul li {margin-left: 0;margin-right: 2px;float: right;}
+body.rtl .menutop ul.columns2 li {float: right;margin-left: 0;margin-right: 2px;}
+body.rtl .menutop ul li > .bullet {padding-left: 0;padding-right: 34px;}
+body.rtl .menutop ul li > .item img {float: right;margin: -1px 10px 8px 8px;}
+
+/* No JS */
+body.rtl .menutop li.root:hover > .fusion-submenu-wrapper {left:minherit;right: -26px;}
+body.rtl .menutop ul.columns1 li:hover > .fusion-submenu-wrapper {right:180px;left: inherit;}
+body.rtl .menutop ul.columns2 li:hover > .fusion-submenu-wrapper {right:178px;left: inherit;}

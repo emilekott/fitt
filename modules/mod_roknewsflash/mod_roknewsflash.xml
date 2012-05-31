@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="1.6.0" method="upgrade" client="site">
+    <name>RokNewsflash</name>
+    <author>RocketTheme, LLC</author>
+    <creationDate>March 30, 2011</creationDate>
+    <authorEmail>support@rockettheme.com</authorEmail>
+    <authorUrl>http://www.rockettheme.com</authorUrl>
+    <copyright>(C) 2005 - 2011 RocketTheme, LLC. All rights reserved.</copyright>
+    <license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+    <version>1.1</version>
+    <description><![CDATA[
+	<h2>RokNewsflash Module</h2>
+	<p>RokNewsflash is a news-ticker style module that rotates between a configurable amount of articles</p>
+	]]></description>
+    <files>
+        <filename module="mod_roknewsflash">mod_roknewsflash.php</filename>
+        <filename>RT-LICENSE.php</filename>
+        <filename>CHANGELOG.php</filename>
+        <filename>index.html</filename>
+        <filename>helper.php</filename>
+        <folder>tmpl/</folder>
+        <folder>fields/</folder>
+    </files>
+    <config>
+		<fields name="params">
+			<fieldset name="basic" addfieldpath="/modules/mod_roknewsflash/fields">
+                <!--<field name="" type="k2check" default="" label="" description=""/>-->
+				<field name="moduleclass_sfx" type="text" default="" label="Module Class Suffix" description="module class suffix" />
+                <field name="load_css" type="radio" default="1" label="Load built-in StyleSheet"
+                       description="Whether to load builtin CSS files. Useful when you want to write your own style and don't want to overwrite.">
+                    <option value="0">JNO</option>
+                    <option value="1">JYES</option>
+                </field>
+                <field name="theme" type="list" default="light" label="Theme"
+                       description="Theme type you want to load: light or dark styles">
+                    <option value="light">Light</option>
+                    <option value="dark">Dark</option>
+                </field>
+        		
+
+				<field name="content_type" type="hidden" value="joomla" />
+                <!--<field name="content_type" type="list" default="joomla" label="Content Type"
+                       description="whether to use Joomla Core Content, or K2 Content">
+                    <option value="joomla">Joomla Core Content</option>
+                    <option value="k2">K2 Content</option>
+                </field>-->
+
+				<field name="spacer_joomla_core" type="spacer" label="&lt;div id=&quot;joomla-label&quot;  style=&quot;font-weight:normal;font-size:12px;color:#fff;padding:4px;margin:0;background:#666;&quot;&gt;Joomla Core Content&lt;/div&gt;" default="" description="" />
+				
+                <field name="catid" type="category" default="" label="Joomla Category" description="" extension="com_content"/>
+        
+                <field name="show_front" type="list" default="1" label="Joomla Featured Items"
+                       description="Show featured articles in this module">
+                    <option value="1">Show</option>
+                    <option value="0">Hide</option>
+                    <option value="2">Only Featured Items</option>
+                </field>
+        
+                <!--<field name="@spacer" type="spacer"
+                       default="&lt;div id=&quot;k2-label&quot;  id=&quot;k2-label&quot;style=&quot;font-weight:normal;font-size:12px;color:#fff;padding:4px;margin:0;background:#666;&quot;&gt;K2 Content&lt;/div&gt;"
+                       label="" description=""/>
+                <field name="catfilter" type="radio" default="0" label="K2 Category filter">
+                    <option value="0">All</option>
+                    <option value="1">Select</option>
+                </field>
+                <field name="category_id" type="categories" default="" label="K2 Filter items by category"
+                       description="Select one ore more categories for which you want to filter an items list. Select none to fetch items from all categories."/>
+                <field name="FeaturedItems" type="list" default="1" label="K2 Featured Items" description="">
+                    <option value="0">Hide</option>
+                    <option value="1">Show</option>
+                    <option value="2">Show only Featured Items</option>
+                </field>-->
+        
+        		<field name="spacer_content_parameters" type="spacer" label="&lt;div id=&quot;joomla-label&quot;  style=&quot;font-weight:normal;font-size:12px;color:#fff;padding:4px;margin:0;background:#666;&quot;&gt;Content Parameters&lt;/div&gt;" default="" description="" />
+                <field name="article_count" type="text" default="4" label="Max Number of Articles"
+                       description="Number of articles to display from the category"/>
+        
+                <field name="itemsOrdering" type="list" default="" label="Item Ordering" description="">
+                    <option value="">Default</option>
+                    <option value="date">Oldest first</option>
+                    <option value="rdate">Most recent first</option>
+                    <option value="alpha">Title Alphabetical</option>
+                    <option value="ralpha">Title Reverse-Alphabetical</option>
+                    <option value="order">Ordering</option>
+                </field>
+        
+                <field name="usetitle" type="radio" default="0" label="Use Title or IntroText"
+                       description="Display output as the title or introtext">
+                    <option value="1">Title</option>
+                    <option value="0">IntroText</option>
+                </field>
+                <field name="pretext" type="text" default="Newsflash:" label="PreText Label"
+                       description="Text to display before newflashes"/>
+                <field name="controls" type="radio" default="1" label="Show Controls" description="Show prev/next controls">
+                    <option value="0">JNO</option>
+                    <option value="1">JYES</option>
+                </field>
+                <field name="duration" type="text" default="600" label="Transition Duration"
+                       description="Duration in ms of cross-blend transition"/>
+                <field name="delay" type="text" default="2500" label="Delay Length"
+                       description="Time in ms of time between newsflashes"/>
+                <field name="news_indent" type="text" default="75" label="News Indent" description="Indent in px"/>
+                <field name="preview_count" type="text" default="75" label="Preview Length"
+                       description="Length of characters to show in MooTools preview"/>
+
+            </fieldset>
+            <fieldset name="advanced">
+                <field name="cache" type="hidden" default="0"/>
+                <field name="module_cache" type="list" default="1" label="Caching"
+                       description="Select whether to cache the content of this module">
+                    <option value="1">Use global</option>
+                    <option value="0">No caching</option>
+                </field>
+                <field name="cache_time" type="text" default="900" label="Cache Time"
+                       description="The time before the module is recached"/>
+            </fieldset>
+        </fields>
+    </config>
+</extension>

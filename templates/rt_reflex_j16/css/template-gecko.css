@@ -1,0 +1,59 @@
+/**
+ * @package   Reflex Template - RocketTheme
+ * @version   1.6.4 December 12, 2011
+ * @author    RocketTheme http://www.rockettheme.com
+ * @copyright Copyright (C) 2007 - 2011 RocketTheme, LLC
+ * @license   http://www.rockettheme.com/legal/license.php RocketTheme Proprietary Use License
+ */
+ 
+/* Structure */
+body {text-rendering: optimizeSpeed;}
+
+/* Typography */
+.rokradios, .rokchecks {line-height: 140%;}
+#more-articles span {line-height: 24px;}
+.rt-pollrow input {left: 0 !important;visibility: hidden;}
+p.dropcap2:first-letter, p.dropcap4:first-letter, p.dropcap6:first-letter {padding: 10px 10px;}
+#search_searchword {width: 144px;}
+
+/* Shadows */
+.rt-image {-moz-box-shadow: 0 0 5px rgba(0,0,0,0.5);}
+.menutop .fusion-submenu-wrapper, #roksearch_results {-moz-box-shadow: 0 0 5px rgba(0,0,0,0.4);}
+#rokajaxsearch .inputbox {-moz-box-shadow: inset 0 0 5px rgba(0,0,0,0.4);}
+.readonstyle-link .readon, #rt-body-surround .readon {-moz-box-shadow: none;}
+.readon {-moz-box-shadow: 0 1px 2px rgba(0,0,0,0.8);}
+
+/* Border Radius */
+#rt-navigation, .menutop li, .menutop li.root, .menutop ul li > .item:first-child:hover, .menutop li.f-menuparent-itemfocus > .item:first-child, body .roknewspager-li.active .roknewspager-h3,.box6 .rt-block .module-title {-moz-border-radius: 3px 3px 0 0;}
+#rt-body-surround, #rt-mainbottom, #rt-bottom, .menutop .fusion-submenu-wrapper.level2, body .roknewspager-li.active .roknewspager-content {-moz-border-radius: 0 0 3px 3px;}
+.menutop li .item:first-child,.menutop li.root .item:first-child {-moz-border-radius: 3px 0 0 0;}
+.menutop .fusion-submenu-wrapper.level2 ul {-moz-border-radius: 0;}
+ul.circle-small li:after, .fp-feature img {-moz-border-radius: 2px;} 
+.box1 .rt-block, .box2 .rt-block, .box3 .rt-block, .box4 .rt-block, .box5 .rt-block, .box6 .rt-block, .box7 .rt-block, .box8 .rt-block, .box9 .rt-block, .box10 .rt-block, .controls .up, .controls .down, .readon, .inputbox, #form-login .inputbox, #com-form-login .inputbox, #josForm .inputbox, .component-content .search_result .inputbox, .component-content .contact .inputbox, .component-content .user input#email, .component-content .user input#name, .component-content .user input#username, .component-content .user input#password, .component-content .user input#passwd, .component-content .user input#password2,ul.circle li:after,.component-content .rt-joomla-table tr.even td, .component-content .rt-joomla-table th,.component-content .rt-joomla-table tr.odd td, .pollstableborder th, .component-content .rt-article, .menutop .fusion-submenu-wrapper,.menutop .fusion-submenu-wrapper ul, .rg-grid-layout1 .rg-block, #rokajaxsearch .inputbox, #rokajaxsearch .roksearch-wrapper, body #roksearch_results, body .roktabs, body .roktabs-container-inner, body #roktwittie .header, body .roknewspager-h3 {-moz-border-radius: 3px;}
+ul.circle-large li:after, .rg-grid-layout1 .tag, body .roksearch_wrapper1 {-moz-border-radius: 5px;}
+.approved, .attention, .alert, .notice, #system-message dd ul {-moz-border-radius: 6px;}
+.contentbox1, .contentbox2, .contentbox3, .contentbox4, .contentbox5, .contentbox6, em.highlight, .component-content .pagenav_prev, .component-content .pagenav_next {-moz-border-radius: 6px;}
+ul.circle-checkmark li:before {-moz-border-radius: 9px;}
+.rg-ss-controls .next, .rg-ss-controls .prev, body .roknewspager-numbers li, body .roknewspager-numbers li.active {-moz-border-radius: 13px;}
+p.dropcap2:first-letter, p.dropcap4:first-letter, p.dropcap6:first-letter, body .roktabs-wrapper .arrow-next, body .roktabs-wrapper .arrow-prev, body #roktwittie .roktwittie-avatar img {-moz-border-radius: 30px;}
+.component-content .rt-article-icons .icon {-moz-border-radius: 40px;}
+
+/* Opacity and Transitions */
+a, .rok-content-rotator h2 a {-moz-transition: color 0.2s ease-out;}
+.menutop li.root > .item, .rt-splitmenu .menutop li .item, .menutop li.f-menuparent-itemfocus > .item, .menutop ul li > .item, .menutop li.f-menuparent-itemfocus > .item {-moz-transition: background 0.2s linear;}
+body #roksearch_results .roksearch_odd-hover, body #roksearch_results .roksearch_even-hover, .module-content ul.menu li {-moz-transition: background 0.3s linear;}
+#rokajaxsearch .inputbox, .rg-ss-controls .next, .rg-ss-controls .prev, .rg-ss-arrow-left, .rg-ss-arrow-right {-moz-transition: background-color 0.2s linear;}
+.component-content .rt-article-icons .print, .component-content .rt-article-icons .email, .component-content .rt-article-icons .pdf, .component-content .rt-article-icons .edit, body .roktabs-wrapper .arrow-next, body .roktabs-wrapper .arrow-prev {-moz-transition: background-color 0.2s ease-out;}
+
+/* load transition */
+#rt-container-content.rt-hidden {opacity: 0;}
+#rt-container-content.rt-visible {opacity: 1;-moz-transition: opacity 0.5s ease-out;transition: opacity 0.5s ease-out;}
+
+/* Demo Presets */
+.menu-preset span {-moz-box-shadow: 3px 3px 3px rgba(0,0,0,0.2);}
+body .menutop .type-module ol li .fusion-module {overflow: visible;}
+.menu-preset a span {-moz-transition: all 0.3s ease-in-out;-moz-animation-iteration-count: 1;position:relative;z-index:3000;-moz-transform: scale(1); cursor:pointer;}
+.menu-preset a:hover span {-moz-transition: all 0.3s ease-in-out;-moz-animation-iteration-count: 1;position:relative;z-index:3000;-moz-transform: scale(1.1); cursor:pointer;}
+
+/* Additional Fixes */
+.roktabs-wrapper .roktabs-links ul li span {-moz-user-select: none;}

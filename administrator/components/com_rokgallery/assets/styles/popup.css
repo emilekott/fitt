@@ -1,0 +1,14 @@
+/**
+ * @author    RocketTheme http://www.rockettheme.com
+ * @copyright Copyright (C) 2007 - 2011 RocketTheme, LLC
+ * @license   http://www.gnu.org/licenses/gpl-2.0.html GNU/GPLv2 only
+ */
+body{position:relative}#popup{-webkit-transition-property:left,top;-webkit-transition-duration:.3s;-webkit-transition-timing-function:ease-in-out;-moz-transition-property:left,top;-moz-transition-duration:.3s;-moz-transition-timing-function:ease-in-out;-o-transition-property:left,top;-o-transition-duration:.3s;-o-transition-timing-function:ease-in-out;-ms-transition-property:left,top;-ms-transition-duration:.3s;-ms-transition-timing-function:ease-in-out;transition-property:left,top;transition-duration:.3s;transition-timing-function:ease-in-out}
+.popup.success{font-weight:normal;color:inherit}#popup{position:fixed;top:0;left:0;z-index:15000;visibility:hidden;box-shadow:0 0 100px #000}.popup{background:rgba(0,0,0,0.5);border-radius:8px;padding:10px;width:350px}
+.popup .container{border:1px solid #666}.popup .topbar{background:#f7f7f7;color:#3184da;text-shadow:0 1px 0 #fff;text-transform:uppercase;font-size:14px;font-weight:bold;padding:5px 10px;border-bottom:1px solid #ececec;position:relative}
+.popup.warning .topbar{color:#c02929}.popup.success .topbar{color:#81ac1a}.popup .topbar .icon{width:10px;height:18px;display:block;float:right;background-image:url(../images/popup-status.png);background-repeat:no-repeat;display:none}
+.popup.warning .topbar .icon{background-position:center left;display:block}.popup.success .topbar .icon{background-position:center right;display:block}
+.popup.none .topbar .icon{display:none}.popup .statusbar{background:#f7f7f7;font-size:14px;padding:5px 5px;border-top:1px solid #ececec;position:relative}
+.popup .statusbar .wrapper{float:right}.popup .statusbar .loading{position:absolute;left:10px;top:10px;background:url(../images/loading.gif) top left no-repeat;width:16px;height:16px;display:none}
+.popup .container .content{position:relative;background:#fff;padding:10px;font-size:13px;line-height:1.5em}.popup .container .content p{margin:3px 0}.popup .container .content .error-intro{border-bottom:2px solid #eee;padding-bottom:10px;margin-bottom:10px}
+#overlay{background:rgba(0,0,0,0.4);position:absolute;top:0;left:0;right:0;bottom:0;height:100%;z-index:10000;display:none;overflow:hidden}

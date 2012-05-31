@@ -1,0 +1,128 @@
+.bluebox 			 	{background:#f8f8f7; color:#888888; border:1px solid #bacfe3; margin:10px; padding:12px; font-size:11px; text-decoration:none; font-weight:normal; font-family: Verdana;}
+.bluebox h1			 	{margin-top:-10px;}
+.bluebox div.head 	 	{color:#6c9fd2; font-size:12px; font-weight:normal; position:relative; top:-20px; right:0px;}
+.bluebox span.headbg	 	{background:transparent  url(../images/headtitle2.gif) repeat left; padding:0px 6px;}
+.bluebox img			 	{margin:-3px 2px;}
+
+.greenbox 			 	{background:#F4F9F0; color:#888888; border:1px solid #9ac872; margin:10px; margin-bottom:15px; padding:12px; font-size:11px; text-decoration:none; font-weight:normal; font-family: Verdana;}
+.greenbox h1			 	{margin-top:-10px;}
+.greenbox h1 a, visited		 	{font-size:1.7em; text-decoration:none; font-weight:normal; font-family: Verdana;}
+.greenbox div.head 	 	{color:#9ac872; font-size:12px; font-weight:normal; position:relative; top:-20px; right:0px;}
+.greenbox span.headbg	 	{background:transparent  url(../images/headtitle1.gif) repeat left; padding:0px 6px;}
+.greenbox img			 	{margin:-3px 2px;}
+.greenbox div.permalink 		{text-align:right;}
+.greenbox div.permalink a, visited	{font-size:1.4em; text-decoration:none;}
+.greenbox li {margin-left:15px;}
+
+A:visited, A:active, A:link {
+FONT-SIZE: 12px; 
+COLOR: #3572AE; 
+FONT-FAMILY:Verdana, Verdana, Arial, Helvetica, sans-serif;  
+TEXT-DECORATION: none
+}
+
+A:hover {
+FONT-SIZE: 12px;
+COLOR: #aaaaaa; 
+FONT-FAMILY:  Verdana, Verdana, Arial, Helvetica, sans-serif; 
+TEXT-DECORATION: none
+}
+
+BODY {
+margin:0px;
+FONT-SIZE: 11px;
+CURSOR: default; 
+COLOR: #444555; 
+BACKGROUND-color: #ffffff; 
+FONT-FAMILY:  Verdana, Verdana, Arial, Helvetica, sans-serif; 
+TEXT-DECORATION: none
+}
+
+
+TEXTAREA {
+background:#ffffff;
+color:#3572AE;
+font: normal 10px Verdana, Arial, Helvetica, sans-serif;
+BORDER-TOP: #3572AE 1px solid; 
+BORDER-BOTTOM: #3572AE 1px solid; 
+BORDER-LEFT: #3572AE 1px solid; 
+BORDER-RIGHT: #3572AE 1px solid;
+}
+
+P {
+FONT-SIZE: 11px; 
+COLOR: #444555; 
+FONT-FAMILY:  Verdana, Arial, Helvetica, sans-serif; LINE-HEIGHT: 1.4; 
+FONT-FAMILY:  Verdana, Arial, Helvetica, sans-serif; 
+TEXT-DECORATION: none
+}
+
+TABLE {
+FONT-SIZE: 11px; 
+COLOR: #444555; 
+FONT-FAMILY:  Verdana, Arial, Helvetica, sans-serif;  
+TEXT-DECORATION: none
+}
+
+input {
+background:#ffffff;
+color:#3572AE;
+font: normal 10px Verdana, Arial, Helvetica, sans-serif;
+BORDER: #3572AE 1px solid; 
+}
+
+
+
+hr {
+border-top: 1px solid #cccccc;
+border-bottom: 1px solid #ffffff;
+height: 2px;
+width: 100%;
+}
+
+UL {
+	LIST-STYLE-TYPE: square
+}
+
+
+SELECT {
+color : #444555;
+font: normal 10px Verdana, Arial, Helvetica, sans-serif;
+BACKGROUND: #cccccc;
+}
+
+
+/* Main table cell colours and backgrounds */
+td.tabletop	{
+background-color:#BDD7EC;
+color: #3572AE;
+BORDER-BOTTOM: #3572AE 1px solid; 
+BORDER-RIGHT: #3572AE 1px solid;
+padding-top: 2px;
+padding-bottom: 2px;
+padding-left: 3px;
+}
+
+td.tdin	{
+background-color : #f4f4f4;
+BORDER-TOP: #3572AE 1px solid; 
+BORDER-LEFT: #3572AE 1px solid; 
+}
+
+td.row1	{
+background-color : #f4f4f4;
+BORDER-BOTTOM: #3572AE 1px solid; 
+BORDER-RIGHT: #3572AE 1px solid;
+padding-top: 3px;
+padding-left: 3px;
+padding-bottom: 3px;
+}
+
+td.row2	{
+background-color:#eeeeee;
+BORDER-BOTTOM: #3572AE 1px solid; 
+BORDER-RIGHT: #3572AE 1px solid;
+padding-top: 3px;
+padding-left: 3px;
+padding-bottom: 3px;
+}

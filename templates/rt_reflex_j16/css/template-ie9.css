@@ -1,0 +1,16 @@
+/**
+ * @package   Reflex Template - RocketTheme
+ * @version   1.6.4 December 12, 2011
+ * @author    RocketTheme http://www.rockettheme.com
+ * @copyright Copyright (C) 2007 - 2011 RocketTheme, LLC
+ * @license   http://www.rockettheme.com/legal/license.php RocketTheme Proprietary Use License
+ */
+ 
+#rt-accessibility:hover {zoom: 1;}
+.roktabs-wrapper .roktabs-links ul li span {-ms-user-select: none;}
+
+/* load transition */
+#rt-container-content.rt-hidden {opacity: 0;}
+#rt-container-content.rt-visible {opacity: 1;-ms-transition: opacity 0.5s ease-out;transition: opacity 0.5s ease-out;}
+
+.ext-rokcandy-block h3 span, .ext-rokpad-block h3 span, .ext-rokgzipper-block h3 span, .ext-rokbox-block h3 span {display: block !important;}

@@ -1,0 +1,28 @@
+/**
+ * @package   Juxta Template - RocketTheme
+ * @version   1.5.1 May 10, 2010
+ * @author    RocketTheme http://www.rockettheme.com
+ * @copyright Copyright (C) 2007 - 2010 RocketTheme, LLC
+ * @license   http://www.rockettheme.com/legal/license.php RocketTheme Proprietary Use License
+ */
+
+.module-title {position: relative;zoom: 1;}
+.rokchecks.roksubscribe {display:inline-block;}
+#rt-mainbody .rt-joomla-table tbody {background-position:10% 50%;}
+
+/* RTL */
+body.rtl ul.bullet-d li  {zoom:1;background-position:100% 10px;}
+body.rtl ul.bullet-a li  {zoom:1;background-position:100% 8px;}
+body.rtl .typo-icon,body.rtl .quote-r {line-height:1.6em;}
+body.rtl span.inset-right-title, body.rtl span.inset-left-title {zoom:1;position:relative;}
+body.rtl .menutop {direction: ltr;}
+body.rtl #rt-showcase .feature-desc {direction: ltr;text-align: right;float: right;}
+body.rtl .rt-article-content p, body.rtl p, body.rtl blockquote, body.rtl blockquote p, body.rtl .dropcap {direction: ltr;text-align: right;}
+body.rtl .fusion-submenu-wrapper li {text-align: right;}
+body.rtl p {direction:rtl}
+body.rtl ol li {direction: ltr;text-align: right;}
+body.rtl .title1 .module-title .title {direction:ltr;text-align:right;}
+body.rtl .rt-module-surround .module-content p {direction:ltr;text-align:right;}
+body.rtl ul.bullet-a, body.rtl ul.bullet-b, body.rtl ul.bullet-c, body.rtl ul.bullet-d, body.rtl ul.bullet-e, body.rtl ul.bullet-1, body.rtl ul.bullet-2, body.rtl ul.bullet-3, body.rtl ul.bullet-4, body.rtl ul.bullet-5, body.rtl ul.bullet-6, body.rtl ul.bullet-7, body.rtl ul.bullet-8, body.rtl ul.bullet-9, body.rtl ul.bullet-10 {direction: ltr;text-align: right;}
+body.rtl .alert, body.rtl .approved, body.rtl .attention, body.rtl .camera, body.rtl .cart, body.rtl .doc, body.rtl .download, body.rtl .media, body.rtl .note, body.rtl .notice, body.rtl .quote {direction: ltr;text-align: right;}
+body.rtl .feature-block-title {margin-top: -5px;}

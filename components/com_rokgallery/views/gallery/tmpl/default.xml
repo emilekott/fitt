@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+    <layout title="ROKGALLERY_GALLERY_VIEW">
+        <message>
+            <![CDATA[ROKGALLERY_GALLERY_VIEW_DESCRIPTION]]>
+        </message>
+    </layout>
+
+    <fields name="params">
+        <!-- Basic options. -->
+        <fieldset name="basic" label="ROKGALLERY_GALLERY_VIEW_GALLERY_OPTIONS"
+                  addfieldpath="/components/com_rokgallery/fields">
+
+            <field name="gallery_id" type="gallery" default="" label="ROKGALLERY_LABEL_GALLERY"
+                   description="ROKGALLERY_DESC_GALLERY"/>
+            <field name="default_layout" type="list" default="grid-4col" label="Default Gallery View" description="">
+                <option value="grid-3col">ROKGALLERY_GRID_3COL</option>
+                <option value="grid-4col">ROKGALLERY_GRID_4COL</option>
+                <option value="list-2col">ROKGALLERY_LIST_2COL</option>
+            </field>
+            <field name="default_style" type="list" default="light" label="Default Style" description="">
+                <option value="dark">ROKGALLERY_DARK</option>
+                <option value="light">ROKGALLERY_LIGHT</option>
+            </field>
+            <field name="default_sort_by" type="list" default="gallery_ordering" label="Default Sort By">
+                <option value="gallery_ordering">ROKGALLERY_SORT_GALLERY_ORDERING</option>
+                <option value="file_created_at">ROKGALLERY_SORT_CREATED</option>
+                <option value="slice_updated_at">ROKGALLERY_SORT_UPDATED</option>
+                <option value="slice_title">ROKGALLERY_SORT_TITLE</option>
+                <option value="loves">ROKGALLERY_SORT_LOVES</option>
+                <option value="views">ROKGALLERY_SORT_VIEWS</option>
+                <option value="random">ROKGALLERY_SORT_RANDOM</option>
+            </field>
+            <field name="default_sort_direction" type="list" default="ASC" label="Default Sort Direction"
+                   description="">
+                <option value="ASC">ROKGALLERY_ASCENDING</option>
+                <option value="DESC">ROKGALLERY_DESCENDING</option>
+            </field>
+            <field name="slice_link_to" type="list" label="ROKGALLERY_LABEL_SLICE_LINK"
+                   default="ROKGALLERY_DESC_SLICE_LINK">
+                <option value="default">ROKGALLERY_LINK_USE_DEFAULT</option>
+                <option value="force_details">ROKGALLERY_LINK_FORCE_DETAILS</option>
+                <option value="rokbox">ROKGALLERY_LINK_ROKBOX</option>
+            </field>
+        </fieldset>
+        <fieldset name="layout" label="ROKGALLERY_GALLERY_VIEW_LAYOUT_OPTIONS">
+            <field name="show_sorts" type="list" default="true"
+                   label="ROKGALLERY_LABEL_SHOW_SORTS"
+                   description="ROKGALLERY_DESC_SHOW_SORTS">
+                <option value="1">ROKGALLERY_YES</option>
+                <option value="0">ROKGALLERY_NO</option>
+            </field>
+            <field name="available_sorts" type="list"
+                   default="gallery_ordering,slice_title,slice_updated_at,file_created_at,loves,views"
+                   label="ROKGALLERY_LABEL_AVAILABLE_SORTS" description="ROKGALLERY_DESC_AVAILABLE_SORTS" multiple="multiple" size="5">
+                 <option value="gallery_ordering">ROKGALLERY_SORT_GALLERY_ORDERING</option>
+                <option value="file_created_at">ROKGALLERY_SORT_CREATED</option>
+                <option value="slice_updated_at">ROKGALLERY_SORT_UPDATED</option>
+                <option value="slice_title">ROKGALLERY_SORT_TITLE</option>
+                <option value="loves">ROKGALLERY_SORT_LOVES</option>
+                <option value="views">ROKGALLERY_SORT_VIEWS</option>
+            </field>
+            <field name="show_available_layouts" type="list" default="true"
+                   label="ROKGALLERY_LABEL_SHOW_AVAILABLE_LAYOUTS"
+                   description="ROKGALLERY_DESC_SHOW_AVAILABLE_LAYOUTS">
+                <option value="1">ROKGALLERY_YES</option>
+                <option value="0">ROKGALLERY_NO</option>
+            </field>
+            <field name="available_layouts" type="list" default="list-2col,grid-3col,grid-4col"
+                   label="ROKGALLERY_LABEL_AVAILABLE_LAYOUTS" description="ROKGALLERY_DESC_AVAILABLE_LAYOUTS"  multiple="multiple" size="3">
+                <option value="grid-3col">ROKGALLERY_GRID_3COL</option>
+                <option value="grid-4col">ROKGALLERY_GRID_4COL</option>
+                <option value="list-2col">ROKGALLERY_LIST_2COL</option>
+            </field>
+            <field name="pages_in_shown_range" type="integer" first="1" last="21" step="1" default="7"
+                   label="ROKGALLERY_LABEL_NUM_PAGES_SHOWN_IN_RANGE"
+                   description="ROKGALLERY_DESC_NUM_PAGES_SHOWN_IN_RANGE"/>
+            <field name="grid-3col-items_per_row" type="hidden" default="3"/>
+            <field name="grid-3col-rows_per_page" type="integer" first="1" last="20" step="1" default="4"
+                   label="Rows on Grid 3 Column Page "
+                   description="ROKGALLERY_DESC_ROWS_ON_3COL_GRID_PAGE"/>
+            <field name="grid-4col-items_per_row" type="hidden" default="4"/>
+            <field name="grid-4col-rows_per_page" type="integer" first="1" last="20" step="1" default="4"
+                   label="ROKGALLERY_LABEL_ROWS_ON_4COL_GRID_PAGE"
+                   description="ROKGALLERY_DESC_ROWS_ON_4COL_GRID_PAGE"/>
+            <field name="list-2col-items_per_row" type="hidden" default="2"/>
+            <field name="list-2col-rows_per_page" type="integer" first="1" last="20" step="1" default="6"
+                   label="ROKGALLERY_LABEL_ROWS_ON_2COL_LIST_PAGE"
+                   description="ROKGALLERY_DESC_ROWS_ON_2COL_LIST_PAGE"/>
+        </fieldset>
+        <fieldset name="galleryview" label="ROKGALLERY_GALLERY_VIEW_GALLERY_VIEW_OPTIONS">
+            <field name="gallery_show_title" type="list" default="true" label="ROKGALLERY_LABEL_TITLE"
+                   description="ROKGALLERY_DESC_TITLE">
+                <option value="1">ROKGALLERY_YES</option>
+                <option value="0">ROKGALLERY_NO</option>
+            </field>
+            <field name="gallery_use_title_from" type="list" default="slice" label="ROKGALLERY_LABEL_USE_TITLE_FROM"
+                   description="ROKGALLERY_DESC_USE_TITLE_FROM">
+                <option value="file">ROKGALLERY_FILE</option>
+                <option value="slice">ROKGALLERY_SLICE</option>
+            </field>
+
+            <field name="gallery_show_caption" type="list" default="true" label="ROKGALLERY_LABEL_CAPTION"
+                   description="ROKGALLERY_DESC_CAPTION">
+                <option value="1">ROKGALLERY_YES</option>
+                <option value="0">ROKGALLERY_NO</option>
+            </field>
+            <field name="gallery_use_caption_from" type="list" default="slice" label="ROKGALLERY_LABEL_USE_CAPTION_FROM"
+                   description="ROKGALLERY_DESC_USE_CAPTION_FROM">
+                <option value="file">ROKGALLERY_FILE</option>
+                <option value="slice">ROKGALLERY_SLICE</option>
+            </field>
+
+            <field name="gallery_show_tags" type="list" default="true" label="ROKGALLERY_LABEL_SHOW_TAGS"
+                   description="ROKGALLERY_DESC_SHOW_TAGS">
+                <option value="1">ROKGALLERY_YES</option>
+                <option value="0">ROKGALLERY_NO</option>
+            </field>
+
+            <field name="gallery_use_tags_from" type="list" default="combined" label="ROKGALLERY_LABEL_USE_TAGS_FROM"
+                   description="ROKGALLERY_DESC_USE_TAGS_FROM">
+                <option value="file">ROKGALLERY_FILE</option>
+                <option value="slice">ROKGALLERY_SLICE</option>
+                <option value="combined">ROKGALLERY_COMBINED</option>
+            </field>
+            <field name="gallery_remove_gallery_tags" type="list" default="true"
+                   label="ROKGALLERY_LABEL_REMOVE_GALLERY_TAGS"
+                   description="ROKGALLERY_DESC_REMOVE_GALLERY_TAGS">
+                <option value="1">ROKGALLERY_YES</option>
+                <option value="0">ROKGALLERY_NO</option>
+            </field>
+
+            <field name="gallery_show_tags_count" type="list" default="true" label="ROKGALLERY_LABEL_SHOW_TAGS_COUNT"
+                   description="ROKGALLERY_DESC_SHOW_TAGS_COUNT">
+                <option value="1">ROKGALLERY_YES</option>
+                <option value="0">ROKGALLERY_NO</option>
+            </field>
+
+            <field name="gallery_show_created_at" type="list" default="true" label="ROKGALLERY_LABEL_SHOW_CREATED_DATE"
+                   description="ROKGALLERY_DESC_SHOW_CREATED_DATE">
+                <option value="1">ROKGALLERY_YES</option>
+                <option value="0">ROKGALLERY_NO</option>
+            </field>
+            <field name="gallery_show_loves" type="list" default="true" label="ROKGALLERY_LABEL_SHOW_LOVES"
+                   description="ROKGALLERY_DESC_SHOW_LOVES">
+                <option value="1">ROKGALLERY_YES</option>
+                <option value="0">ROKGALLERY_NO</option>
+            </field>
+            <field name="gallery_show_views" type="list" default="true" label="ROKGALLERY_LABEL_SHOW_VIEWS"
+                   description="ROKGALLERY_DESC_SHOW_VIEWS">
+                <option value="1">ROKGALLERY_YES</option>
+                <option value="0">ROKGALLERY_NO</option>
+            </field>
+        </fieldset>
+        <fieldset name="detailview" label="ROKGALLERY_GALLERY_VIEW_DETAIL_VIEW_OPTIONS">
+            <field name="detail_show_title" type="list" default="true" label="ROKGALLERY_LABEL_TITLE"
+                   description="ROKGALLERY_DESC_TITLE">
+                <option value="1">ROKGALLERY_YES</option>
+                <option value="0">ROKGALLERY_NO</option>
+            </field>
+            <field name="detail_use_title_from" type="list" default="slice" label="ROKGALLERY_LABEL_USE_TITLE_FROM"
+                   description="ROKGALLERY_DESC_USE_TITLE_FROM">
+                <option value="file">ROKGALLERY_FILE</option>
+                <option value="slice">ROKGALLERY_SLICE</option>
+            </field>
+
+            <field name="detail_show_caption" type="list" default="true" label="ROKGALLERY_LABEL_CAPTION"
+                   description="ROKGALLERY_DESC_CAPTION">
+                <option value="1">ROKGALLERY_YES</option>
+                <option value="0">ROKGALLERY_NO</option>
+            </field>
+            <field name="detail_use_caption_from" type="list" default="slice" label="ROKGALLERY_LABEL_USE_CAPTION_FROM"
+                   description="ROKGALLERY_DESC_USE_CAPTION_FROM">
+                <option value="file">ROKGALLERY_FILE</option>
+                <option value="slice">ROKGALLERY_SLICE</option>
+            </field>
+            <field name="detail_show_tags" type="list" default="true" label="ROKGALLERY_LABEL_SHOW_TAGS"
+                   description="ROKGALLERY_DESC_SHOW_TAGS">
+                <option value="1">ROKGALLERY_YES</option>
+                <option value="0">ROKGALLERY_NO</option>
+            </field>
+            <field name="detail_use_tags_from" type="list" default="combined" label="ROKGALLERY_LABEL_USE_TAGS_FROM"
+                   description="ROKGALLERY_DESC_USE_TAGS_FROM">
+                <option value="file">ROKGALLERY_FILE</option>
+                <option value="slice">ROKGALLERY_SLICE</option>
+                <option value="combined">ROKGALLERY_COMBINED</option>
+            </field>
+            <field name="detail_remove_gallery_tags" type="list" default="true"
+                   label="ROKGALLERY_LABEL_REMOVE_GALLERY_TAGS"
+                   description="ROKGALLERY_DESC__REMOVE_GALLERY_TAGS">
+                <option value="1">ROKGALLERY_YES</option>
+                <option value="0">ROKGALLERY_NO</option>
+            </field>
+            <field name="detail_show_tags_count" type="list" default="true" label="ROKGALLERY_LABEL_SHOW_TAGS_COUNT"
+                   description="ROKGALLERY_DESC_SHOW_TAGS_COUNT">
+                <option value="1">ROKGALLERY_YES</option>
+                <option value="0">ROKGALLERY_NO</option>
+            </field>
+            <field name="detail_show_created_at" type="list" default="true" label="ROKGALLERY_LABEL_SHOW_CREATED_DATE"
+                   description="ROKGALLERY_DESC_SHOW_CREATED_DATE">
+                <option value="1">ROKGALLERY_YES</option>
+                <option value="0">ROKGALLERY_NO</option>
+            </field>
+            <field name="detail_show_updated_at" type="list" default="true" label="ROKGALLERY_LABEL_SHOW_UPDATED_DATE"
+                   description="ROKGALLERY_DESC_SHOW_UPDATED_DATE">
+                <option value="1">ROKGALLERY_YES</option>
+                <option value="0">ROKGALLERY_NO</option>
+            </field>
+            <field name="detail_show_loves" type="list" default="true" label="ROKGALLERY_LABEL_SHOW_LOVES"
+                   description="ROKGALLERY_DESC_SHOW_LOVES">
+                <option value="1">ROKGALLERY_YES</option>
+                <option value="0">ROKGALLERY_NO</option>
+            </field>
+            <field name="detail_show_views" type="list" default="true" label="ROKGALLERY_LABEL_SHOW_VIEWS"
+                   description="ROKGALLERY_DESC_SHOW_VIEWS">
+                <option value="1">ROKGALLERY_YES</option>
+                <option value="0">ROKGALLERY_NO</option>
+            </field>
+            <field name="detail_show_filesize" type="list" default="true" label="ROKGALLERY_LABEL_SHOW_FILESIZE"
+                   description="ROKGALLERY_DESC_SHOW_FILESIZE">
+                <option value="1">ROKGALLERY_YES</option>
+                <option value="0">ROKGALLERY_NO</option>
+            </field>
+            <field name="detail_use_filesize_from" type="list" default="file" label="ROKGALLERY_LABEL_USE_FILESIZE_FROM"
+                   description="ROKGALLERY_DESC_USE_FILESIZE_FROM">
+                <option value="file">ROKGALLERY_FILE</option>
+                <option value="slice">ROKGALLERY_SLICE</option>
+            </field>
+            <field name="detail_show_dimensions" type="list" default="true"
+                   label="ROKGALLERY_LABEL_SHOW_DIMENSIONS"
+                   description="ROKGALLERY_DESC_SLICE_DIMENSIONS">
+                <option value="1">ROKGALLERY_YES</option>
+                <option value="0">ROKGALLERY_NO</option>
+            </field>
+            <field name="detail_use_dimensions_from" type="list" default="file"
+                   label="ROKGALLERY_LABEL_USE_DIMENSIONS_FROM"
+                   description="ROKGALLERY_DESC_USE_DIMENSIONS_FROM">
+                <option value="file">ROKGALLERY_FILE</option>
+                <option value="slice">ROKGALLERY_SLICE</option>
+            </field>
+            <field name="detail_show_download_full" type="list" default="true"
+                   label="ROKGALLERY_LABEL_SHOW_DOWNLOAD_FULL"
+                   description="ROKGALLERY_DESC_SHOW_DOWNLOAD_FULL">
+                <option value="1">ROKGALLERY_YES</option>
+                <option value="0">ROKGALLERY_NO</option>
+            </field>
+            <field name="detail_show_gallery_info" type="list" default="true"
+                   label="ROKGALLERY_LABEL_SHOW_GALLERY_INFO"
+                   description="ROKGALLERY_DESC_SHOW_GALLERY_INFO">
+                <option value="1">ROKGALLERY_YES</option>
+                <option value="0">ROKGALLERY_NO</option>
+            </field>
+        </fieldset>
+    </fields>
+</metadata>

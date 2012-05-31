@@ -1,0 +1,12 @@
+/**
+ * @package   Juxta Template - RocketTheme
+ * @version   1.5.1 May 10, 2010
+ * @author    RocketTheme http://www.rockettheme.com
+ * @copyright Copyright (C) 2007 - 2010 RocketTheme, LLC
+ * @license   http://www.rockettheme.com/legal/license.php RocketTheme Proprietary Use License
+ */
+
+/* Root Items */
+body.rtl .menutop li {float: right;}
+body.rtl .menutop li.parent.active .item span {padding-right: 21px;padding-left: 28px;}
+body.cssstyle-style5.rtl .menutop li.parent.active .item span, body.cssstyle-style6.rtl .menutop li.parent.active .item span {padding-right: 25px;padding-left: 28px;}

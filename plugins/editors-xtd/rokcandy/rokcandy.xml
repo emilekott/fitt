@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="plugin" group="editors-xtd" version="1.6.0" method="update">
+	<name>Button - RokCandy</name>
+	<creationDate>July 15, 2011</creationDate>
+	<author>RocketTheme, LLC</author>
+	<authorEmail>support@rockettheme.com</authorEmail>
+	<authorUrl>http://www.rockettheme.com</authorUrl>
+	<copyright>(C) 2005 - 2011 RocketTheme, LLC. All rights reserved.</copyright>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<version>1.1</version>
+	<description>This is an Editor Button to allow selection of RokCandy macros</description>
+	<files>
+		<filename plugin="rokcandy">rokcandy.php</filename>
+	</files>
+</extension>
